@@ -79,9 +79,8 @@ nav li:nth-last-of-type(1) {
 /* hero */
 
 .hero-content {
-  background: #f9f3eb url("assets/Hero\ Banner\ Bg.png") center center repeat;
-  /* opacity: 0.5; */
-  height: 800px;
+  background: #f9f3eb url("./assets/hero_bg.png") center center repeat;
+  height: 900px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -89,10 +88,44 @@ nav li:nth-last-of-type(1) {
   margin: auto;
 }
 
+.logo {
+  margin-top: 87px;
+}
+.hero-inner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  text-align: center;
+}
+
 .hero-title {
-  border-left: 5px #a9804a;
+  letter-spacing: 1px;
+  width: 66%;
+  margin: 15px;
+  font-size: 50px;
+  color: #a9804a;
+  font-family: "ZCOOL XiaoWei", Georgia, "Times New Roman", serif;
+  font-weight: 300;
+}
+
+.hero-description {
+  font-family: sans-serif;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  color: #666666;
+  font-size: 13px;
+  line-height: 16px;
+  width: 88%;
 }
 
 .hero-CTA {
   font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+  border-radius: 50px;
+  background: #a9804a;
+  color: white;
+  padding: 25px 45px;
+  font-size: 12px;
 }
