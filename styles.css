@@ -7,6 +7,7 @@
 
 body {
   font-family: "ZCOOL XiaoWei", serif;
+  margin: 0;
   /* min-height: 100vh;
   max-width: 400px;
   margin: 0 auto; */
@@ -14,18 +15,20 @@ body {
 
 /* nav */
 
-.nav-container {
-  background-color: white;
-  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
-}
-
-.wrapper {
-  margin: auto;
-}
-
 nav {
   height: 72px;
   display: flex;
+  margin: 0;
+  justify-content: space-between;
+  text-align: right;
+  padding: 20px 10px;
+  width: 100%;
+  position: fixed;
+  height: 69px;
+  z-index: 1;
+  align-items: center;
+  background: white;
+
   /* justify-content: space-between; */
 
   /* align-items: center; */
@@ -39,17 +42,23 @@ nav {
   color: #20292f;
 }
 
-nav ul {
+/* nav ul {
   display: flex;
-}
+} */
 
-.nav-menu li {
-  display: flex;
+nav li {
+  display: inline-block;
+  /* padding: 20px 10px; */
   list-style: none;
-  margin-right: 100px;
+  flex-grow: 1;
+  color: #20292f;
+  font-size: 11px;
+  font-weight: 500px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
 }
 
-.nav-menu li a {
+nav li a {
   color: #20292f;
   font-size: 15px;
   font-weight: 500px;
@@ -57,15 +66,22 @@ nav ul {
   text-decoration: none;
 }
 
-.nav-menu li:nth-last-of-type(1) {
+nav li:nth-last-of-type(1) {
   margin: 0;
 }
 
-cart-icon {
-  max-width: 100%;
+.cart-icon {
+  height: 20px;
+  padding-left: 10px;
+  justify-content: right;
 }
 
 /* hero */
+
+.hero-content {
+  background: #f9f3eb url("assets/Hero\ Banner\ Bg.png");
+  height: 400px;
+}
 
 .hero-title {
   border-left: 5px #a9804a;
