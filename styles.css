@@ -1,43 +1,59 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   /* //so height and width will be as we want */
 }
 
 body {
   font-family: "ZCOOL XiaoWei", serif;
+  /* min-height: 100vh;
+  max-width: 400px;
+  margin: 0 auto; */
 }
 
 /* nav */
 
 .nav-container {
-  height: 72px;
   background-color: white;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
 }
 
 .wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 nav {
-  display: flex;
-  align-items: center;
-  line-height: 23px;
   height: 72px;
+  display: flex;
+  /* justify-content: space-between; */
+
+  /* align-items: center; */
 }
 
 .title-logo {
+  display: flex;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 23px;
-  line-height: 23px;
   color: #20292f;
 }
 
+nav ul {
+  display: flex;
+}
+
 .nav-menu li {
+  display: flex;
   list-style: none;
   margin-right: 100px;
+}
+
+.nav-menu li a {
   color: #20292f;
+  font-size: 15px;
+  font-weight: 500px;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
 }
 
