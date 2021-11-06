@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  /* //so height and width will be as we want */
+}
+
+body {
+  font-family: "ZCOOL XiaoWei", serif;
+}
+
+/* nav */
+
+.nav-container {
+  height: 72px;
+  background-color: white;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  line-height: 23px;
+  height: 72px;
+}
+
+.title-logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 23px;
+  color: #20292f;
+}
+
+.nav-menu li {
+  list-style: none;
+  margin-right: 100px;
+  color: #20292f;
+  text-decoration: none;
+}
+
+.nav-menu li:nth-last-of-type(1) {
+  margin: 0;
+}
+
+cart-icon {
+  max-width: 100%;
+}
+
+/* hero */
+
+.hero-title {
+  border-left: 5px #a9804a;
+}
+
+.hero-CTA {
+  font-family: "Josefin Sans", sans-serif;
+}
