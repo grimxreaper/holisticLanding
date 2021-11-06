@@ -169,3 +169,16 @@ nav li:nth-last-of-type(1) {
   max-height: auto;
   float: right;
 }
+
+.section_two {
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+  text-align: center;
+}
+
+.box_one {
+  border: 1px solid #333;
+}
