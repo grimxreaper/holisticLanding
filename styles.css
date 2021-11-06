@@ -25,7 +25,7 @@ nav {
   width: 100%;
   position: fixed;
   height: 69px;
-  z-index: 1;
+  z-index: 99;
   align-items: center;
   background: white;
 }
@@ -111,11 +111,12 @@ nav li:nth-last-of-type(1) {
 }
 
 .hero-description {
-  font-family: sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   margin-top: 15px;
   margin-bottom: 30px;
   color: #666666;
   font-size: 13px;
+  /* font-weight: 200; */
   line-height: 16px;
   width: 88%;
 }
@@ -128,4 +129,43 @@ nav li:nth-last-of-type(1) {
   color: white;
   padding: 25px 45px;
   font-size: 12px;
+}
+
+.big_fern_left {
+  right: 1100px;
+  top: 300px;
+  /* left: 0.3px; */
+  position: absolute;
+  width: auto;
+  max-width: 40%;
+  height: auto;
+  max-height: auto;
+  float: left;
+  z-index: 1;
+  /* transform: translateY(63px) rotate3d(0, 0, 1, 6.291deg);
+  transition: transform 200ms linear; */
+}
+
+.mint_fern {
+  right: 1100px;
+  top: 700px;
+  /* left: 0.3px; */
+  position: absolute;
+  width: auto;
+  max-width: 30%;
+  height: auto;
+  max-height: auto;
+  float: left;
+}
+
+.plant_right {
+  left: 1100px;
+  top: 400px;
+  /* left: 0.3px; */
+  position: absolute;
+  width: auto;
+  max-width: 30%;
+  height: auto;
+  max-height: auto;
+  float: right;
 }
