@@ -170,15 +170,19 @@ nav li:nth-last-of-type(1) {
   float: right;
 }
 
+.section_two_title {
+  font-family: Josefin Sans;
+  font-weight: 600;
+}
 .section_two {
   height: 900px;
   display: flex;
   flex-direction: column;
-
-  margin: auto;
+  /* width: 88%; */
+  margin: 90px 90px;
   text-align: center;
 }
 
 .box_one {
-  border: 1px solid #333;
+  border: 2px solid #333;
 }
