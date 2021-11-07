@@ -78,6 +78,10 @@ nav li:nth-last-of-type(1) {
 
 /* hero */
 
+.block.hero {
+  position: relative;
+}
+
 .hero-content {
   background: #f9f3eb url("./assets/hero_bg.png") center center repeat;
   height: 900px;
