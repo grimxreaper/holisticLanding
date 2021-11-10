@@ -25,13 +25,14 @@ nav {
   z-index: 99;
   align-items: center;
   background: white;
+  box-shadow: 0 0 30px rgba(7, 51, 84, 0.17);
 }
 
 .title-logo {
   display: flex;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 23px;
   letter-spacing: 1px;
   color: #20292f;
 }
@@ -52,7 +53,7 @@ nav li {
 
 nav li a {
   color: #20292f;
-  font-size: 9px;
+  font-size: 15px;
   letter-spacing: 1px;
   font-weight: 400px;
   font-family: "Poppins", sans-serif;
@@ -109,7 +110,7 @@ nav li:nth-last-of-type(1) {
     }
   }
   .two {
-    right: 0;
+    right: -200px;
     position: absolute;
   }
 }
