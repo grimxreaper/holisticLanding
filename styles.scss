@@ -218,3 +218,23 @@ nav li:nth-last-of-type(1) {
 .box_one {
   border: 2px solid #333;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-column-gap: 0.05%;
+  grid-row-gap: 0.08%;
+
+  div {
+    background-color: #b5daff;
+    padding: 1em;
+    font-size: 12px;
+    border: 1px solid #333;
+  }
+  h3 {
+    font-family: "Josefin Sans", sans-serif;
+  }
+  p {
+    font-family: sans-serif;
+  }
+}
