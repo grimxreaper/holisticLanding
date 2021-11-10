@@ -184,17 +184,15 @@ nav li:nth-last-of-type(1) {
 }
 
 .box_one {
-  border: 2px solid #333;
+  border: 1px solid black;
 }
 
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  grid-column-gap: 0.05%;
-  grid-row-gap: 0.08%;
 }
 .wrapper div {
-  background-color: #b5daff;
+  background-color: #ffffff;
   padding: 1em;
   font-size: 12px;
 }
@@ -206,6 +204,9 @@ nav li:nth-last-of-type(1) {
 }
 .wrapper .herbal_remedy {
   grid-column: span 2;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
 }
 .wrapper .cta_section_two {
   font-family: "Josefin Sans", sans-serif;
@@ -215,6 +216,20 @@ nav li:nth-last-of-type(1) {
   color: white;
   padding: 15px 25px;
   font-size: 14px;
+}
+.wrapper .box_two {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+.wrapper .box_three {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+.wrapper .box_four {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
 }
 
 /*# sourceMappingURL=styles.css.map */
