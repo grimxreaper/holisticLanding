@@ -93,7 +93,7 @@ nav li:nth-last-of-type(1) {
   }
 
   .one {
-    // left: 0;
+    left: 0;
 
     .big_fern_left {
       position: absolute;
@@ -107,6 +107,10 @@ nav li:nth-last-of-type(1) {
       left: -200px;
       z-index: 0;
     }
+  }
+  .two {
+    right: 0;
+    position: absolute;
   }
 }
 
@@ -190,17 +194,17 @@ nav li:nth-last-of-type(1) {
 //   float: left;
 // }
 
-.plant_right {
-  left: 1100px;
-  top: 400px;
-  /* left: 0.3px; */
-  position: absolute;
-  width: auto;
-  max-width: 30%;
-  height: auto;
-  max-height: auto;
-  float: right;
-}
+// .plant_right {
+//   left: 1100px;
+//   top: 400px;
+//   /* left: 0.3px; */
+//   position: absolute;
+//   width: auto;
+//   max-width: 30%;
+//   height: auto;
+//   max-height: auto;
+//   float: right;
+// }
 
 .section_two_title {
   font-family: Josefin Sans;
