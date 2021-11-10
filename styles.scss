@@ -86,22 +86,22 @@ nav li:nth-last-of-type(1) {
     position: absolute;
     bottom: 0;
     width: 60vw;
-    max-width: 500px;
+    max-width: 600px;
     height: 500px;
     background: gray;
     opacity: 0.5;
   }
 
-  &.one {
-    left: 0;
+  .one {
+    // left: 0;
 
-    &.big_fern_left {
+    .big_fern_left {
       position: absolute;
       top: 0;
-      left: -600px;
+      left: -200px;
       z-index: 1;
     }
-    &.mint_fern {
+    .mint_fern {
       position: absolute;
       bottom: 0;
       left: -200px;
@@ -222,8 +222,7 @@ nav li:nth-last-of-type(1) {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  // grid-column-gap: 0.05%;
-  // grid-row-gap: 0.08%;
+  text-align: left;
 
   div {
     background-color: #ffffff;
@@ -238,18 +237,28 @@ nav li:nth-last-of-type(1) {
   }
 
   .herbal_remedy {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
     grid-column: span 2;
     border-bottom: 1px solid rgb(0, 0, 0);
     border-right: 1px solid rgb(0, 0, 0);
     border-left: 1px solid rgb(0, 0, 0);
+
+    .content {
+      flex: 1 1 80%;
+    }
   }
   .cta_section_two {
+    display: block;
+    flex: 0 0 auto;
     font-family: "Josefin Sans", sans-serif;
     text-decoration: none;
     border-radius: 50px;
     background: #a9804a;
     color: white;
-    padding: 15px 25px;
+    padding: 10px 25px;
     font-size: 14px;
   }
   .box_two {
@@ -263,6 +272,8 @@ nav li:nth-last-of-type(1) {
     border-right: 1px solid rgb(0, 0, 0);
   }
   .box_four {
+    display: flex;
+    justify-content: center;
     border-bottom: 1px solid rgb(0, 0, 0);
     border-right: 1px solid rgb(0, 0, 0);
   }
