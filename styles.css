@@ -111,8 +111,7 @@ nav li:nth-last-of-type(1) {
   right: -200px;
   position: absolute;
 }
-
-.hero-content {
+.block.hero .wrapper {
   background: #f9f3eb url("./assets/hero_bg.png") center center repeat;
   height: 900px;
   display: flex;
