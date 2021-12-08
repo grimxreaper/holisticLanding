@@ -11,10 +11,6 @@ body {
 }
 
 /* nav */
-.test {
-  max-width: 1440px;
-}
-
 nav {
   height: 72px;
   display: flex;
@@ -29,6 +25,18 @@ nav {
   align-items: center;
   background: white;
   box-shadow: 0 0 30px rgba(7, 51, 84, 0.17);
+}
+nav .row,
+nav .col {
+  display: flex;
+  align-items: center;
+}
+nav .row {
+  justify-content: space-between;
+  max-width: 1440px;
+}
+nav .col.two {
+  justify-content: flex-end;
 }
 
 .title-logo {
@@ -119,6 +127,7 @@ nav li:nth-last-of-type(1) {
   align-items: center;
   justify-content: center;
   margin: auto;
+  max-width: 1440px;
 }
 
 .logo {
