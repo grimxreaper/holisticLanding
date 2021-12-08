@@ -11,14 +11,18 @@ body {
 }
 
 /* nav */
+.test {
+  max-width: 1440px;
+}
+
 nav {
   height: 72px;
   display: flex;
-  margin: 0;
+  margin: 0 auto;
   justify-content: space-between;
   text-align: right;
   padding: 40px 40px;
-  width: 100%;
+  width: 1440px;
   position: fixed;
   height: 69px;
   z-index: 99;
