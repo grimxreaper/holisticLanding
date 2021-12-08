@@ -111,7 +111,8 @@ nav li:nth-last-of-type(1) {
   right: -200px;
   position: absolute;
 }
-.block.hero .wrapper {
+
+.hero-content {
   background: #f9f3eb url("./assets/hero_bg.png") center center repeat;
   height: 900px;
   display: flex;
@@ -172,34 +173,32 @@ nav li:nth-last-of-type(1) {
   text-align: center;
   max-width: 1080px;
 }
-
-.section_two_title {
+.section_two .section_two_title {
   font-family: Josefin Sans;
   font-weight: 600;
   font-size: 60px;
   color: #333;
 }
-
-.wrapper {
+.section_two .wrapper {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   text-align: left;
 }
-.wrapper div {
+.section_two .wrapper div {
   background-color: #ffffff;
   padding: 1em;
 }
-.wrapper h3 {
+.section_two .wrapper h3 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
   color: #333;
 }
-.wrapper p {
+.section_two .wrapper p {
   font-family: sans-serif;
   font-size: 16px;
   color: #666;
 }
-.wrapper .herbal_remedy {
+.section_two .wrapper .herbal_remedy {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -208,10 +207,10 @@ nav li:nth-last-of-type(1) {
   border-right: 1px solid black;
   border-left: 1px solid black;
 }
-.wrapper .herbal_remedy .content {
+.section_two .wrapper .herbal_remedy .content {
   flex: 1 1 80%;
 }
-.wrapper .cta_section_two {
+.section_two .wrapper .cta_section_two {
   display: block;
   flex: 0 0 auto;
   font-family: "Josefin Sans", sans-serif;
@@ -222,20 +221,20 @@ nav li:nth-last-of-type(1) {
   padding: 10px 25px;
   font-size: 14px;
 }
-.wrapper .box_one {
+.section_two .wrapper .box_one {
   border: 1px solid black;
 }
-.wrapper .box_two {
+.section_two .wrapper .box_two {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   border-right: 1px solid black;
 }
-.wrapper .box_three {
+.section_two .wrapper .box_three {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   border-right: 1px solid black;
 }
-.wrapper .box_four {
+.section_two .wrapper .box_four {
   display: flex;
   justify-content: center;
   border-bottom: 1px solid black;
