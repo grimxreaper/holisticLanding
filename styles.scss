@@ -116,16 +116,15 @@ nav li:nth-last-of-type(1) {
     right: -200px;
     position: absolute;
   }
-}
-
-.hero-content {
-  background: #f9f3eb url("./assets/hero_bg.png") center center repeat;
-  height: 900px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
+  .wrapper {
+    background: #f9f3eb url("./assets/hero_bg.png") center center repeat;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
 }
 
 .logo {
