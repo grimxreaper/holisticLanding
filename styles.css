@@ -10,23 +10,27 @@ body {
   margin: 0;
 }
 
+.page-wrapper {
+  overflow: hidden;
+}
+
 /* nav */
 nav {
-  height: 72px;
-  display: flex;
-  margin: 0 auto;
-  justify-content: space-between;
-  text-align: right;
-  padding: 40px 40px;
-  width: 1440px;
+  height: 80px;
+  width: 100%;
+  padding: 0;
   position: fixed;
-  height: 69px;
-  z-index: 99;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  background: white;
+  z-index: 99;
   box-shadow: 0 0 30px rgba(7, 51, 84, 0.17);
+  background-color: white;
 }
-nav .wrapper.one {
+nav .wrapper {
+  height: 100%;
+  width: 100%;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -34,34 +38,59 @@ nav .row,
 nav .col {
   display: flex;
   align-items: center;
+  height: 100%;
 }
-nav .col {
+nav .col-left {
   justify-content: flex-start;
 }
 nav .row {
   justify-content: space-between;
   max-width: 1440px;
+  padding: 0 40px;
 }
-nav .col.two {
+nav .col-right {
   justify-content: flex-end;
 }
 
 .title-logo {
-  display: flex;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 23px;
+  font-size: clamp(16px, 2vw, 23px);
   letter-spacing: 1px;
   color: #20292f;
+  text-decoration: none;
 }
 
 .title-logo:hover {
   cursor: pointer;
 }
 
+.desktop-menu {
+  display: flex;
+  gap: 22px;
+}
+@media (max-width: 830px) {
+  .desktop-menu {
+    display: none;
+  }
+}
+
+.mobile-menu {
+  height: 32px;
+  width: 32px;
+  margin-left: 16px;
+  background-color: skyblue;
+  display: none;
+  cursor: pointer;
+}
+@media (max-width: 830px) {
+  .mobile-menu {
+    display: block;
+  }
+}
+
 nav li {
   display: inline-block;
-  padding: 20px 7px;
   list-style: none;
   flex-grow: 1;
   color: #20292f;
@@ -89,6 +118,7 @@ nav li:nth-last-of-type(1) {
 .cart-icon {
   height: 17px;
   justify-content: right;
+  margin-left: 22px;
 }
 
 /* hero */
@@ -104,7 +134,6 @@ nav li:nth-last-of-type(1) {
   width: 60vw;
   max-width: 600px;
   height: 500px;
-  background: gray;
   opacity: 0.5;
 }
 .block.hero .one {
@@ -127,14 +156,16 @@ nav li:nth-last-of-type(1) {
   position: absolute;
 }
 .block.hero .wrapper {
-  background: #f9f3eb url("./assets/hero_bg.png") center center repeat;
+  background: url("https://assets.codepen.io/4809878/hero_bg.png");
+  background-repeat: repeat;
+  background-size: 300px;
+  background-color: #f9f3eb;
   height: 900px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: auto;
-  max-width: 1440px;
 }
 
 .logo {
@@ -195,46 +226,98 @@ nav li:nth-last-of-type(1) {
   color: #333;
 }
 .section_two .wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  text-align: left;
+  display: flex;
+  flex-direction: column;
 }
 .section_two .wrapper div {
   background-color: #ffffff;
-  padding: 1em;
 }
 .section_two .wrapper h3 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
   color: #333;
+  margin-bottom: 10px;
 }
 .section_two .wrapper p {
   font-family: sans-serif;
   font-size: 16px;
   color: #666;
 }
+.section_two .wrapper .flex-top {
+  display: flex;
+}
+@media (max-width: 980px) {
+  .section_two .wrapper .flex-top {
+    flex-direction: column;
+  }
+}
+.section_two .wrapper .flex-bottom {
+  display: flex;
+}
+@media (max-width: 980px) {
+  .section_two .wrapper .flex-bottom {
+    flex-direction: column;
+  }
+}
 .section_two .wrapper .herbal_remedy {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  width: 66.7%;
+  max-width: 718.66px;
   grid-column: span 2;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
   border-left: 1px solid black;
 }
+@media (max-width: 980px) {
+  .section_two .wrapper .herbal_remedy {
+    max-width: 100%;
+    width: 100%;
+  }
+}
 .section_two .wrapper .herbal_remedy .content {
-  flex: 1 1 80%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.section_two .wrapper .herbal_remedy .leaf_logo {
+  width: 72px;
+  height: 72px;
 }
 .section_two .wrapper .cta_section_two {
   display: block;
-  flex: 0 0 auto;
   font-family: "Josefin Sans", sans-serif;
   text-decoration: none;
   border-radius: 50px;
   background: #a9804a;
   color: white;
-  padding: 10px 25px;
-  font-size: 14px;
+  padding: 15px 40px;
+  font-size: 22px;
+}
+.section_two .wrapper .box_one,
+.section_two .wrapper .box_two,
+.section_two .wrapper .box_three,
+.section_two .wrapper .box_four,
+.section_two .wrapper .herbal_remedy {
+  padding: 30px;
+  text-align: left;
+  line-height: 1.8em;
+}
+.section_two .wrapper .box_one,
+.section_two .wrapper .box_two,
+.section_two .wrapper .box_three,
+.section_two .wrapper .box_four {
+  width: 33.3333%;
+  max-width: 359.33px;
+}
+@media (max-width: 980px) {
+  .section_two .wrapper .box_one,
+.section_two .wrapper .box_two,
+.section_two .wrapper .box_three,
+.section_two .wrapper .box_four {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 .section_two .wrapper .box_one {
   border: 1px solid black;
@@ -252,6 +335,7 @@ nav li:nth-last-of-type(1) {
 .section_two .wrapper .box_four {
   display: flex;
   justify-content: center;
+  align-items: center;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
 }
