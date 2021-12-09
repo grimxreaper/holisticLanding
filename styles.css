@@ -26,10 +26,17 @@ nav {
   background: white;
   box-shadow: 0 0 30px rgba(7, 51, 84, 0.17);
 }
+nav .wrapper.one {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 nav .row,
 nav .col {
   display: flex;
   align-items: center;
+}
+nav .col {
+  justify-content: flex-start;
 }
 nav .row {
   justify-content: space-between;
