@@ -200,10 +200,13 @@ nav li:nth-last-of-type(1) {
   letter-spacing: 1px;
   width: 66%;
   margin: 15px;
-  font-size: 50px;
+  font-size: 80px;
   color: #a9804a;
   font-family: "ZCOOL XiaoWei", Georgia, "Times New Roman", serif;
   font-weight: 300;
+  @media (max-width: 980px) {
+    font-size: 48px;
+  }
 }
 
 .hero-description {
@@ -211,8 +214,9 @@ nav li:nth-last-of-type(1) {
   margin-top: 15px;
   margin-bottom: 30px;
   color: #666666;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 18px;
+  line-height: 1.4em;
+  word-wrap: break-word;
   width: 88%;
 }
 
@@ -223,7 +227,10 @@ nav li:nth-last-of-type(1) {
   background: #a9804a;
   color: white;
   padding: 25px 45px;
-  font-size: 12px;
+  font-size: 22px;
+  @media (max-width: 980px) {
+    font-size: 18px;
+  }
 }
 
 // SECTION TWO
@@ -241,6 +248,12 @@ nav li:nth-last-of-type(1) {
     font-weight: 600;
     font-size: 60px;
     color: #333;
+    @media (max-width: 980px) {
+      font-size: 42px;
+    }
+    @media (max-width: 767px) {
+      font-size: 24px;
+    }
   }
 
   .wrapper {
@@ -255,11 +268,17 @@ nav li:nth-last-of-type(1) {
       font-size: 20px;
       color: #333;
       margin-bottom: 10px;
+      @media (max-width: 767px) {
+        font-size: 18px;
+      }
     }
     p {
       font-family: sans-serif;
       font-size: 16px;
       color: #666;
+      @media (max-width: 767px) {
+        font-size: 14px;
+      }
     }
 
     .flex-top {
