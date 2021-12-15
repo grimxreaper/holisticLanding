@@ -155,6 +155,23 @@ nav li:nth-last-of-type(1) {
   right: -200px;
   position: absolute;
 }
+.block.hero .two .plant_right {
+  z-index: 1;
+  position: relative;
+}
+.block.hero .two .plant_right2 {
+  position: relative;
+  top: -600px;
+  right: -120px;
+  z-index: 0;
+  width: 300px;
+}
+@media (max-width: 970px) {
+  .block.hero .two .plant_right2 {
+    width: 250px;
+    right: -200px;
+  }
+}
 .block.hero .wrapper {
   background: url("https://assets.codepen.io/4809878/hero_bg.png");
   background-repeat: repeat;
@@ -370,6 +387,15 @@ nav li:nth-last-of-type(1) {
   align-items: center;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
+}
+
+.section_three {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.section_three .title {
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
