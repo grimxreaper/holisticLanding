@@ -231,6 +231,7 @@ nav li:nth-last-of-type(1) {
   max-width: 1080px;
 }
 .section_two .section_two_title {
+  padding-bottom: 40px;
   font-family: Josefin Sans;
   font-weight: 600;
   font-size: 60px;
