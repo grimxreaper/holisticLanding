@@ -502,6 +502,9 @@ nav li:nth-last-of-type(1) {
   padding: 15px 40px;
   font-size: 22px;
 }
+.section_three .container {
+  margin-right: 20px;
+}
 .section_three .socials {
   display: flex;
   flex-direction: column;
