@@ -407,6 +407,7 @@ nav li:nth-last-of-type(1) {
     width: 100%;
     max-width: 1080px;
     margin: 0 auto;
+    padding: 40px;
 
   }
 
@@ -420,6 +421,10 @@ nav li:nth-last-of-type(1) {
     justify-content: flex-start;
     margin-bottom: 410px;
     max-width: 18ch;
+    @media (max-width: 980px) {
+      max-width: auto;
+    }
+
   }
 
   .row {
@@ -448,34 +453,26 @@ nav li:nth-last-of-type(1) {
     height: auto;
   }
   .row_two {
-
       display: flex;
       align-items: center;
       height: 100%;
       background: red;
-
   }
   .banner {
     position: relative;
     margin-left: -240px;
+    z-index: 0;
+  }
+  .about-me{
+    z-index: 9;
+  }
+  .box_title {
+    font-family: 'Josefin Sans';
+    font-size: 60px;
+    line-height: 1.2em;
+    font-weight: 600px;
+  }
+  .socials {
+    display: flex;
   }
 }
-
-// .row,
-// .col {
-//   display: flex;
-//   align-items: center;
-//   height: 100%;
-// }
-
-// .col-left {
-//   justify-content: flex-start;
-// }
-// .row {
-//   justify-content: space-between;
-//   max-width: 1440px;
-//   padding: 0 40px;
-// }
-// .col-right {
-//   justify-content: flex-end;
-// }

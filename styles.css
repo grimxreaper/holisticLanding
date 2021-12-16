@@ -406,6 +406,7 @@ nav li:nth-last-of-type(1) {
   width: 100%;
   max-width: 1080px;
   margin: 0 auto;
+  padding: 40px;
 }
 .section_three .title {
   text-align: left;
@@ -417,6 +418,11 @@ nav li:nth-last-of-type(1) {
   justify-content: flex-start;
   margin-bottom: 410px;
   max-width: 18ch;
+}
+@media (max-width: 980px) {
+  .section_three .title {
+    max-width: auto;
+  }
 }
 .section_three .row {
   display: flex;
@@ -452,6 +458,19 @@ nav li:nth-last-of-type(1) {
 .section_three .banner {
   position: relative;
   margin-left: -240px;
+  z-index: 0;
+}
+.section_three .about-me {
+  z-index: 9;
+}
+.section_three .box_title {
+  font-family: "Josefin Sans";
+  font-size: 60px;
+  line-height: 1.2em;
+  font-weight: 600px;
+}
+.section_three .socials {
+  display: flex;
 }
 
 /*# sourceMappingURL=styles.css.map */
