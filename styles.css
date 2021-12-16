@@ -451,6 +451,7 @@ nav li:nth-last-of-type(1) {
 }
 .section_three .row_two {
   display: flex;
+  flex-direction: row;
   align-items: center;
   height: 100%;
   background: red;
@@ -462,19 +463,44 @@ nav li:nth-last-of-type(1) {
   z-index: -1;
 }
 .section_three .about-me {
-  z-index: 9;
+  z-index: 999;
   position: relative;
+  width: 47.25%;
+  background-color: pink;
+  background-image: linear-gradient(180deg, rgba(249, 243, 235, 0.8) 0%, rgba(249, 243, 235, 0.8) 100%), url(https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/05/holistic-healer-21.png);
+  background-color: #f9f3eb;
+  background-repeat: repeat;
+  padding: 40px 20px;
+  text-align: left;
+}
+@media (max-width: 900px) {
+  .section_three .about-me {
+    width: 100%;
+  }
 }
 .section_three .about-me h3 {
   font-family: "Josefin Sans";
   font-size: 60px;
   line-height: 1.2em;
   font-weight: 600px;
-  background: #13adf5;
   position: relative;
 }
 .section_three .about-me p {
   position: relative;
+  font-family: "Muli", sans-serif;
+  line-height: 1.8em;
+  font-size: 16px;
+  color: #666;
+}
+.section_three .learn_more_btn {
+  display: block;
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+  border-radius: 50px;
+  background: #a9804a;
+  color: white;
+  padding: 15px 40px;
+  font-size: 22px;
 }
 .section_three .socials {
   display: flex;
