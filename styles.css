@@ -245,7 +245,7 @@ nav li:nth-last-of-type(1) {
 }
 
 .section_two {
-  height: 900px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   margin: 90px auto;
@@ -398,9 +398,19 @@ nav li:nth-last-of-type(1) {
   display: flex;
   text-align: center;
   justify-content: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 90px auto;
+  max-width: 1080px;
 }
 .section_three .title {
-  text-align: center;
+  text-align: left;
+  display: block;
+  color: #a9804a;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.2em;
 }
 
 /*# sourceMappingURL=styles.css.map */
