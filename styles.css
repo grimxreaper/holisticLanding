@@ -454,23 +454,32 @@ nav li:nth-last-of-type(1) {
   align-items: center;
   height: 100%;
   background: red;
+  z-index: 999;
 }
 .section_three .banner {
   position: relative;
   margin-left: -240px;
-  z-index: 0;
+  z-index: -1;
 }
 .section_three .about-me {
   z-index: 9;
+  position: relative;
 }
-.section_three .box_title {
+.section_three .about-me h3 {
   font-family: "Josefin Sans";
   font-size: 60px;
   line-height: 1.2em;
   font-weight: 600px;
+  background: #13adf5;
+  position: relative;
+}
+.section_three .about-me p {
+  position: relative;
 }
 .section_three .socials {
   display: flex;
+  flex-direction: column;
+  z-index: 9;
 }
 
 /*# sourceMappingURL=styles.css.map */
