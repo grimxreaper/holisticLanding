@@ -413,4 +413,47 @@ nav li:nth-last-of-type(1) {
     font-weight: 500;
     line-height: 1.2em;
   }
+
+  .row {
+    display: flex;
+    align-items: center;
+    height: 100%
+  }
+  .col-left {
+    justify-content: flex-start;
+  }
+  .col_right {
+    justify-content: flex-end;
+    position: relative;
+  }
+  .overlay {
+    position: absolute;
+    width: 410px;
+    height: auto;
+    z-index: 9;
+  }
+  .placeholder {
+    position: relative;
+    width: 400px;
+    height: auto;
+  }
 }
+
+// .row,
+// .col {
+//   display: flex;
+//   align-items: center;
+//   height: 100%;
+// }
+
+// .col-left {
+//   justify-content: flex-start;
+// }
+// .row {
+//   justify-content: space-between;
+//   max-width: 1440px;
+//   padding: 0 40px;
+// }
+// .col-right {
+//   justify-content: flex-end;
+// }
