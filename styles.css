@@ -136,6 +136,9 @@ nav li:nth-last-of-type(1) {
   height: 500px;
   opacity: 0.5;
 }
+.block.hero .asset_wrapper {
+  position: relative;
+}
 .block.hero .one {
   left: 0;
 }
@@ -153,22 +156,24 @@ nav li:nth-last-of-type(1) {
 }
 .block.hero .two {
   right: -200px;
-  position: absolute;
 }
 .block.hero .two .plant_right {
   z-index: 1;
-  position: relative;
+  position: absolute;
+  width: 450px;
+  top: 100px;
 }
 .block.hero .two .plant_right2 {
-  position: relative;
-  top: -600px;
-  right: -120px;
+  position: absolute;
+  top: 150px;
+  right: 100px;
   z-index: 0;
   width: 300px;
 }
 @media (max-width: 970px) {
   .block.hero .two .plant_right2 {
     width: 250px;
+    height: auto;
     right: -200px;
   }
 }
