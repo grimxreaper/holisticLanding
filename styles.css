@@ -245,7 +245,7 @@ nav li:nth-last-of-type(1) {
 }
 
 .section_two {
-  height: 500px;
+  height: auto;
   display: flex;
   flex-direction: column;
   margin: 90px auto;
@@ -272,9 +272,6 @@ nav li:nth-last-of-type(1) {
 .section_two .wrapper {
   display: flex;
   flex-direction: column;
-}
-.section_two .wrapper div {
-  background-color: #ffffff;
 }
 .section_two .wrapper h3 {
   font-family: "Josefin Sans", sans-serif;
@@ -398,19 +395,28 @@ nav li:nth-last-of-type(1) {
   display: flex;
   text-align: center;
   justify-content: center;
-  height: 500px;
+  height: auto;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   margin: 90px auto;
+  width: 100%;
+}
+.section_three .wrapper {
+  width: 100%;
   max-width: 1080px;
+  margin: 0 auto;
 }
 .section_three .title {
   text-align: left;
-  display: block;
+  display: flex;
   color: #a9804a;
   font-size: 48px;
   font-weight: 500;
   line-height: 1.2em;
+  justify-content: flex-start;
+  margin-bottom: 410px;
+  max-width: 18ch;
 }
 .section_three .row {
   display: flex;
@@ -419,10 +425,12 @@ nav li:nth-last-of-type(1) {
 }
 .section_three .col-left {
   justify-content: flex-start;
+  width: 10%;
 }
 .section_three .col_right {
   justify-content: flex-end;
   position: relative;
+  width: 50%;
 }
 .section_three .overlay {
   position: absolute;
@@ -434,6 +442,16 @@ nav li:nth-last-of-type(1) {
   position: relative;
   width: 400px;
   height: auto;
+}
+.section_three .row_two {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background: red;
+}
+.section_three .banner {
+  position: relative;
+  margin-left: -240px;
 }
 
 /*# sourceMappingURL=styles.css.map */
