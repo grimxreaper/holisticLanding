@@ -472,14 +472,11 @@ nav li:nth-last-of-type(1) {
       180deg,rgba(249,243,235,0.8) 0%,rgba(249,243,235,0.8) 100%), url(https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/05/holistic-healer-21.png);
     background-color: #f9f3eb;
     background-repeat: repeat;
-    padding: 40px 20px;
+    padding: 40px 25px;
     text-align: left;
-
     @media (max-width: 900px) {
       width: 100%;
-
     }
-
 
     h3 {
       font-family: "Josefin Sans";
@@ -507,10 +504,19 @@ nav li:nth-last-of-type(1) {
     padding: 15px 40px;
     font-size: 22px;
   }
-  
+
   .socials {
     display: flex;
     flex-direction: column;
     z-index: 9;
+    width: 20px;
+    margin-top: 130px;
+    
+    .icon {
+      margin-top: 10px;
+      margin-bottom: 10px;
+  
+    }
   }
+
 }
