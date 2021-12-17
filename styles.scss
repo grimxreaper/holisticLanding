@@ -542,12 +542,19 @@ nav li:nth-last-of-type(1) {
   flex-direction: column;
   flex-wrap: wrap;
   margin: 90px auto;
-  z-index: 0;
+  z-index: -1;
 
   .sage_container {
     position: absolute;
     top: 216px;
     left: 100px;
+    z-index: 1;
+    
+  
+    .img {
+      // max-width: 50%;
+      z-index: 2;
+    }
 
     .test{
       position: absolute;
@@ -580,17 +587,6 @@ nav li:nth-last-of-type(1) {
       text-align: left;
       font-family: 'Josefin Sans', 'Helvetica', 'Arial';
     }
-
-
-    // p {
-    //   left: 1000px;
-    //   font-size: 16px;
-    //   color: #fff;
-    //   text-align: left;
-    //   font-weight: 500;
-    //   line-height: 1.8em;
-    //   font-family: 'Muli', sans-serif;
-    // }
   }
 }
 
@@ -635,10 +631,15 @@ nav li:nth-last-of-type(1) {
   }
 }
 
-.row_two{
+.video{
   position: absolute;
-  z-index: 99;
-  // background: red;
+  bottom: -90px;
+  left: 100px;
+  z-index: 99999;
+  background: blueviolet;
+  cursor: pointer;
+  height: 200px;
+  width: auto;
 }
 
 }
