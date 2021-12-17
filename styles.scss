@@ -549,28 +549,48 @@ nav li:nth-last-of-type(1) {
     top: 216px;
     left: 100px;
 
+    .test{
+      position: absolute;
+      bottom: 400px;
+      left: 400px;
+      width: 37%;
+
+      p {
+        left: 1000px;
+        font-size: 16px;
+        color: #fff;
+        text-align: left;
+        font-weight: 500;
+        line-height: 1.8em;
+        font-family: 'Muli', sans-serif;
+      }
+    }
+
   .text_block {
     position: absolute;
-    top: 160px;
-    left: 100px;
-    width: 47%;
+    top: 200px;
+    left: 190px;
 
     h1 {
       font-size: 140px;
       font-weight: 600;
       color: #fff;
       line-height: 1.2em;
+      width: 77%;
+      text-align: left;
+      font-family: 'Josefin Sans', 'Helvetica', 'Arial';
     }
 
-    p {
-      left: 1000px;
-      font-size: 16px;
-      color: #fff;
-      text-align: left;
-      font-weight: 500;
-      line-height: 1.8em;
-      font-family: 'Muli', sans-serif;
-    }
+
+    // p {
+    //   left: 1000px;
+    //   font-size: 16px;
+    //   color: #fff;
+    //   text-align: left;
+    //   font-weight: 500;
+    //   line-height: 1.8em;
+    //   font-family: 'Muli', sans-serif;
+    // }
   }
 }
 
