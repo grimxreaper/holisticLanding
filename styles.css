@@ -501,6 +501,9 @@ nav li:nth-last-of-type(1) {
   color: white;
   padding: 15px 40px;
   font-size: 22px;
+  margin-top: 240px;
+  line-height: 1.5em;
+  margin-left: 50px;
 }
 .section_three .container {
   margin-right: 20px;
