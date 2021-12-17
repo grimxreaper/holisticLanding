@@ -531,12 +531,12 @@ nav li:nth-last-of-type(1) {
   flex-direction: column;
   flex-wrap: wrap;
   margin: 90px auto;
-}
-.section_four .column_one {
-  position: relative;
+  z-index: 0;
 }
 .section_four .sage_container {
   position: absolute;
+  top: 216px;
+  left: 100px;
 }
 .section_four .sage_container .text_block {
   position: absolute;
@@ -595,6 +595,10 @@ nav li:nth-last-of-type(1) {
   font-weight: 600;
   color: #333;
   margin-top: 40px;
+}
+.section_four .row_two {
+  position: absolute;
+  z-index: 99;
 }
 
 /*# sourceMappingURL=styles.css.map */
