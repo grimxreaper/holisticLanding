@@ -530,3 +530,81 @@ nav li:nth-last-of-type(1) {
   }
 
 }
+
+.section_four {
+  position: relative;
+  background-image: url('https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/05/holistic-healer-35.png');
+  background-repeat: repeat;
+
+  .sage_container {
+    position: relative;
+
+
+  .text_block {
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    width: 47%;
+
+    h1 {
+      font-size: 140px;
+      font-weight: 600;
+      color: #fff;
+      line-height: 1.2em;
+    }
+
+    p {
+      left: 1000px;
+      font-size: 16px;
+      color: #fff;
+      text-align: left;
+      font-weight: 500;
+      line-height: 1.8em;
+      font-family: 'Muli', sans-serif;
+    }
+  }
+}
+
+.column_two{
+  position: relative;
+  background: yellow;
+}
+
+.quote {
+  position: absolute;
+  background: #afe0c2;
+  height: 217px;
+  width: 700px;
+  justify-content: center;
+  text-align: left;
+  margin-bottom: 50px;
+  top: 0px;
+  right: -90px;
+
+  .wrapper{
+    position: relative;
+    background: yellow;
+    left: 30px;
+    bottom: 10px;
+    width: 50%;
+  }
+
+  .author{
+    font-family: 'Josefin Sans', 'Helvetica';
+    font-size: 14px;
+    color: #6666;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  .text{
+    font-family: 'Josefin Sans', 'Helvetica';
+    font-size: 20px;
+    line-height: 1.8em;
+    font-weight: 600;
+    color: #333;
+    margin-top: 40px;
+  }
+}
+
+}
