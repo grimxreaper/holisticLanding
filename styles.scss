@@ -408,7 +408,7 @@ nav li:nth-last-of-type(1) {
   @media (max-width: 980px) {
     background-image: none;
   }
-  padding-bottom: 90px;
+  padding-bottom: 130px;
 
   .wrapper {
     width: 100%;
@@ -461,10 +461,9 @@ nav li:nth-last-of-type(1) {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: red;
     justify-content: center;
     position: absolute;
-    bottom: -1650px;
+    bottom: -1500px;
     left: 100px;
     height: 380px;
   }
@@ -476,8 +475,8 @@ nav li:nth-last-of-type(1) {
   .about-me {
     z-index: 999;
     position: relative;
-    width: 30%;
-    height: 380px;
+    width: 35%;
+    height: 326px;
     background-color: pink;
     background-image: linear-gradient(
         180deg,
@@ -498,14 +497,15 @@ nav li:nth-last-of-type(1) {
       font-size: 60px;
       line-height: 1.2em;
       font-weight: 600px;
-      position: relative;
+      color: #333;
     }
     p {
-      position: relative;
       font-family: "Muli", sans-serif;
       line-height: 1.8em;
       font-size: 16px;
       color: #666;
+      word-wrap: break-word;
+      margin-top: 20px;
     }
   }
 
@@ -524,7 +524,7 @@ nav li:nth-last-of-type(1) {
   }
 
   .container {
-    margin-right: 20px;
+    margin-right: 40px;
   }
 
   .socials {
@@ -532,7 +532,7 @@ nav li:nth-last-of-type(1) {
     flex-direction: column;
     z-index: 9;
     width: 20px;
-    margin-top: 130px;
+    margin-top: 200px;
 
     .icon {
       margin-top: 10px;
