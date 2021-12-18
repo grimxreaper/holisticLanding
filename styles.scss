@@ -561,7 +561,11 @@ nav li:nth-last-of-type(1) {
     left: 100px;
     z-index: 1;
 
-    .test {
+    .sage {
+      width: 1000px;
+    }
+
+    .description {
       position: absolute;
       bottom: 400px;
       left: 400px;
@@ -646,4 +650,14 @@ nav li:nth-last-of-type(1) {
     height: 200px;
     width: auto;
   }
+}
+
+.section_five {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin: 90px auto;
+  text-align: center;
+  max-width: 1080px;
+  padding-top: 200px;
 }
