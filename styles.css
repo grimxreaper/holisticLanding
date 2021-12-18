@@ -400,6 +400,10 @@ nav li:nth-last-of-type(1) {
   flex-wrap: wrap;
   margin: 90px auto;
   width: 100%;
+  background-image: url("https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/06/holistic-healer-47.jpg");
+  background-position: bottom center;
+  background-size: initial;
+  background-repeat: no-repeat;
 }
 .section_three .wrapper {
   width: 100%;
@@ -453,8 +457,6 @@ nav li:nth-last-of-type(1) {
   flex-direction: row;
   align-items: center;
   height: 100%;
-  background: red;
-  z-index: 999;
 }
 .section_three .banner {
   position: relative;
@@ -517,6 +519,13 @@ nav li:nth-last-of-type(1) {
 .section_three .socials .icon {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.background {
+  background-image: url("https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/06/holistic-healer-47.jpg");
+  background-position: bottom center;
+  background-size: initial;
+  background: red;
 }
 
 .section_four {

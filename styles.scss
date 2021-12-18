@@ -401,6 +401,10 @@ nav li:nth-last-of-type(1) {
   flex-wrap: wrap;
   margin: 90px auto;
   width: 100%;
+  background-image: url("https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/06/holistic-healer-47.jpg");
+  background-position: bottom center;
+  background-size: initial;
+  background-repeat: no-repeat;
 
   .wrapper {
     width: 100%;
@@ -454,8 +458,6 @@ nav li:nth-last-of-type(1) {
     flex-direction: row;
     align-items: center;
     height: 100%;
-    background: red;
-    z-index: 999;
   }
   .banner {
     position: relative;
@@ -468,7 +470,11 @@ nav li:nth-last-of-type(1) {
     width: 47.25%;
     background-color: pink;
     background-image: linear-gradient(
-      180deg,rgba(249,243,235,0.8) 0%,rgba(249,243,235,0.8) 100%), url(https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/05/holistic-healer-21.png);
+        180deg,
+        rgba(249, 243, 235, 0.8) 0%,
+        rgba(249, 243, 235, 0.8) 100%
+      ),
+      url(https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/05/holistic-healer-21.png);
     background-color: #f9f3eb;
     background-repeat: repeat;
     padding: 40px 25px;
@@ -486,14 +492,14 @@ nav li:nth-last-of-type(1) {
     }
     p {
       position: relative;
-      font-family: 'Muli',sans-serif;
+      font-family: "Muli", sans-serif;
       line-height: 1.8em;
       font-size: 16px;
       color: #666;
     }
   }
 
-  .learn_more_btn{
+  .learn_more_btn {
     display: block;
     font-family: "Josefin Sans", sans-serif;
     text-decoration: none;
@@ -520,19 +526,24 @@ nav li:nth-last-of-type(1) {
     z-index: 9;
     width: 20px;
     margin-top: 130px;
-    
+
     .icon {
       margin-top: 10px;
       margin-bottom: 10px;
-  
     }
   }
+}
 
+.background {
+  background-image: url("https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/06/holistic-healer-47.jpg");
+  background-position: bottom center;
+  background-size: initial;
+  background: red;
 }
 
 .section_four {
   position: relative;
-  background-image: url('https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/05/holistic-healer-35.png');
+  background-image: url("https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/05/holistic-healer-35.png");
   background-repeat: repeat;
   height: 1040px;
   width: 100%;
@@ -549,14 +560,13 @@ nav li:nth-last-of-type(1) {
     top: 216px;
     left: 100px;
     z-index: 1;
-    
-  
+
     .img {
       // max-width: 50%;
       z-index: 2;
     }
 
-    .test{
+    .test {
       position: absolute;
       bottom: 400px;
       left: 400px;
@@ -569,77 +579,76 @@ nav li:nth-last-of-type(1) {
         text-align: left;
         font-weight: 500;
         line-height: 1.8em;
-        font-family: 'Muli', sans-serif;
+        font-family: "Muli", sans-serif;
       }
     }
 
-  .text_block {
-    position: absolute;
-    top: 200px;
-    left: 190px;
+    .text_block {
+      position: absolute;
+      top: 200px;
+      left: 190px;
 
-    h1 {
-      font-size: 140px;
-      font-weight: 600;
-      color: #fff;
-      line-height: 1.2em;
-      width: 77%;
-      text-align: left;
-      font-family: 'Josefin Sans', 'Helvetica', 'Arial';
+      h1 {
+        font-size: 140px;
+        font-weight: 600;
+        color: #fff;
+        line-height: 1.2em;
+        width: 77%;
+        text-align: left;
+        font-family: "Josefin Sans", "Helvetica", "Arial";
+      }
     }
   }
-}
 
-.column_two{
-  position: relative;
-  background: yellow;
-}
-
-.quote {
-  position: absolute;
-  background: #afe0c2;
-  height: 217px;
-  width: 700px;
-  justify-content: center;
-  text-align: left;
-  margin-bottom: 50px;
-  top: 0px;
-  right: -90px;
-
-  .wrapper{
+  .column_two {
     position: relative;
-    left: 30px;
-    bottom: 10px;
-    width: 50%;
+    background: yellow;
   }
 
-  .author{
-    font-family: 'Josefin Sans', 'Helvetica';
-    font-size: 14px;
-    color: #6666;
-    font-weight: 600;
-    margin-bottom: 30px;
-    margin-top: 20px;
-  }
-  .text{
-    font-family: 'Josefin Sans', 'Helvetica';
-    font-size: 20px;
-    line-height: 1.8em;
-    font-weight: 600;
-    color: #333;
-    margin-top: 40px;
-  }
-}
+  .quote {
+    position: absolute;
+    background: #afe0c2;
+    height: 217px;
+    width: 700px;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 50px;
+    top: 0px;
+    right: -90px;
 
-.video{
-  position: absolute;
-  bottom: -90px;
-  left: 100px;
-  z-index: 99999;
-  background: blueviolet;
-  cursor: pointer;
-  height: 200px;
-  width: auto;
-}
+    .wrapper {
+      position: relative;
+      left: 30px;
+      bottom: 10px;
+      width: 50%;
+    }
 
+    .author {
+      font-family: "Josefin Sans", "Helvetica";
+      font-size: 14px;
+      color: #6666;
+      font-weight: 600;
+      margin-bottom: 30px;
+      margin-top: 20px;
+    }
+    .text {
+      font-family: "Josefin Sans", "Helvetica";
+      font-size: 20px;
+      line-height: 1.8em;
+      font-weight: 600;
+      color: #333;
+      margin-top: 40px;
+    }
+  }
+
+  .video {
+    position: absolute;
+    bottom: -90px;
+    left: 100px;
+    z-index: 99999;
+    background: blueviolet;
+    cursor: pointer;
+    height: 200px;
+    width: auto;
+  }
 }
