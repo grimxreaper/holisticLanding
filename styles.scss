@@ -670,20 +670,111 @@ nav li:nth-last-of-type(1) {
     font-size: 60px;
     font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
     line-height: 1.2em;
+    color: #333;
   }
 
-  .box_one {
+  .boxes {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     z-index: 9;
     width: 200px;
     margin-top: 20px;
-    background-color: #f7f5e8;
     height: 233px;
   }
 
-  .contents {
-    padding: 20px 20px 20px 20px;
+  .contents_one {
+    padding: 40px 30px 40px 30px;
+    background-color: #f7f5e8;
+
+    .number {
+      font-size: 36px;
+      line-height: 1.2em;
+      text-align: left;
+      color: #333;
+      font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    }
+
+    h4 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      line-height: 1.8em;
+      font-size: 18px;
+      text-align: left;
+      color: #333;
+    }
+    p {
+      font-family: "Muli", sans-serif;
+      color: #666;
+      line-height: 1.8em;
+      text-align: left;
+      word-wrap: break-word;
+    }
+  }
+  .contents_two {
+    padding: 40px 30px 40px 30px;
+    background-color: #afe0c2;
+
+    .number {
+      font-size: 36px;
+      line-height: 1.2em;
+      text-align: left;
+      color: #333;
+      font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    }
+
+    h4 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      line-height: 1.8em;
+      font-size: 18px;
+      text-align: left;
+      color: #333;
+    }
+    p {
+      font-family: "Muli", sans-serif;
+      color: #666;
+      line-height: 1.8em;
+      text-align: left;
+      word-wrap: break-word;
+    }
+  }
+  .contents_three {
+    padding: 40px 30px 40px 30px;
+    background-color: #f6ddd7;
+
+    .number {
+      font-size: 36px;
+      line-height: 1.2em;
+      text-align: left;
+      color: #333;
+      font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    }
+
+    h4 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      line-height: 1.8em;
+      font-size: 18px;
+      text-align: left;
+      color: #333;
+    }
+    p {
+      font-family: "Muli", sans-serif;
+      color: #666;
+      line-height: 1.8em;
+      text-align: left;
+      word-wrap: break-word;
+    }
+  }
+  .contents_four {
+    padding: 40px 30px 40px 30px;
+    background-color: #f0ece4;
 
     .number {
       font-size: 36px;
