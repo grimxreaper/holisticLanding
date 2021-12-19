@@ -641,17 +641,33 @@ nav li:nth-last-of-type(1) {
 .section_five {
   height: auto;
   display: flex;
-  flex-direction: row;
   margin: 90px auto;
-  text-align: center;
   max-width: 1080px;
   padding-top: 200px;
+}
+.section_five .title_row {
+  background-color: #9e9e91;
+  width: 1080px;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
 }
 .section_five .title {
   font-size: 60px;
   font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
   line-height: 1.2em;
   color: #333;
+  text-align: left;
+}
+.section_five .row {
+  display: flex;
+  flex-direction: row;
+  background-color: purple;
+  justify-content: space-around;
+  width: 1080px;
+  height: auto;
+  margin-top: 200px;
 }
 .section_five .boxes {
   display: flex;
@@ -660,6 +676,7 @@ nav li:nth-last-of-type(1) {
   width: 200px;
   margin-top: 20px;
   height: 233px;
+  margin-left: 0px;
 }
 .section_five .contents_one {
   padding: 40px 30px 40px 30px;
