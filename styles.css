@@ -587,7 +587,6 @@ nav li:nth-last-of-type(1) {
 }
 .section_four .column_two {
   position: relative;
-  background: yellow;
 }
 .section_four .quote {
   position: absolute;
@@ -624,13 +623,19 @@ nav li:nth-last-of-type(1) {
 }
 .section_four .video {
   position: absolute;
-  bottom: -90px;
+  bottom: -191px;
   left: 100px;
   z-index: 99999;
   background: blueviolet;
   cursor: pointer;
   height: 200px;
   width: auto;
+}
+.section_four .empty_block {
+  background: yellow;
+  width: 100px;
+  height: auto;
+  z-index: 999;
 }
 
 .section_five {
@@ -641,6 +646,47 @@ nav li:nth-last-of-type(1) {
   text-align: center;
   max-width: 1080px;
   padding-top: 200px;
+}
+.section_five .title {
+  font-size: 60px;
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  line-height: 1.2em;
+}
+.section_five .box_one {
+  display: flex;
+  flex-direction: column;
+  z-index: 9;
+  width: 200px;
+  margin-top: 20px;
+  background-color: #f7f5e8;
+  height: 233px;
+}
+.section_five .contents {
+  padding: 20px 20px 20px 20px;
+}
+.section_five .contents .number {
+  font-size: 36px;
+  line-height: 1.2em;
+  text-align: left;
+  color: #333;
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+}
+.section_five .contents h4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 1.8em;
+  font-size: 18px;
+  text-align: left;
+  color: #333;
+}
+.section_five .contents p {
+  font-family: "Muli", sans-serif;
+  color: #666;
+  line-height: 1.8em;
+  text-align: left;
+  word-wrap: break-word;
 }
 
 /*# sourceMappingURL=styles.css.map */
