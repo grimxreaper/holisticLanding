@@ -2,8 +2,22 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
   // overflow-x: hidden;
   /* //so height and width will be as we want */
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  line-height: 1.8em;
+}
+
+.wrapper {
+  max-width: 1080px;
+  margin: auto;
 }
 
 body {
@@ -192,7 +206,7 @@ nav li:nth-last-of-type(1) {
     }
   }
   .wrapper {
-    background: url("https://assets.codepen.io/4809878/hero_bg.png");
+    // background: url("https://assets.codepen.io/4809878/hero_bg.png");
     background-repeat: repeat;
     background-size: 300px;
     background-color: #f9f3eb;
@@ -242,7 +256,8 @@ nav li:nth-last-of-type(1) {
   width: 88%;
 }
 
-.cta {
+.cta,
+.btn {
   font-family: "Josefin Sans", sans-serif;
   text-decoration: none;
   border-radius: 50px;
@@ -250,6 +265,7 @@ nav li:nth-last-of-type(1) {
   color: white;
   padding: 25px 45px;
   font-size: 22px;
+  display: inline-block;
   @media (max-width: 980px) {
     font-size: 18px;
   }
@@ -819,6 +835,65 @@ nav li:nth-last-of-type(1) {
       line-height: 1.8em;
       text-align: left;
       word-wrap: break-word;
+    }
+  }
+}
+
+.block.demo {
+  padding: 0px 40px;
+  margin-bottom: 200px;
+  .row {
+    display: flex;
+    gap: 1em;
+    @media screen and (max-width: 768px) {
+      flex-direction: column; //the contents inside the rows will now stack into columns, not the rows themselves
+    }
+
+    &:nth-child(1) {
+      .col {
+        flex-basis: 100%;
+      }
+    }
+
+    &:nth-child(2) {
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin-top: -100px;
+      @media screen and (max-width: 768px) {
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 0px;
+      }
+      .col {
+        max-width: 500px;
+        @media screen and (max-width: 768px) {
+          max-width: none;
+        }
+
+        &:nth-child(2) {
+          background: grey;
+          padding: 4em 2em;
+          .title {
+            font-size: 3em;
+          }
+        }
+      }
+    }
+  }
+
+  .headline {
+    font-size: 3em;
+  }
+  .social {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    @media screen and (max-width: 768px) {
+      flex-direction: row;
+      padding: 60px 0px 10px 0px;
     }
   }
 }
