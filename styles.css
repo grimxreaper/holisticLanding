@@ -822,6 +822,10 @@ nav li:nth-last-of-type(1) {
 .block.demo .row:nth-child(1) .col {
   flex-basis: 100%;
 }
+.block.demo .row:nth-child(1) img {
+  width: 510px;
+  height: auto;
+}
 .block.demo .row:nth-child(2) {
   justify-content: flex-end;
   align-items: flex-end;
@@ -835,6 +839,7 @@ nav li:nth-last-of-type(1) {
   }
 }
 .block.demo .row:nth-child(2) .col {
+  padding: 30px;
   max-width: 500px;
 }
 @media screen and (max-width: 768px) {
@@ -855,7 +860,11 @@ nav li:nth-last-of-type(1) {
   font-size: 3em;
 }
 .block.demo .headline {
-  font-size: 3em;
+  font-size: 48px;
+  color: #a9804a;
+  font-weight: 500;
+  max-width: 18ch;
+  line-height: 1.2em;
 }
 .block.demo .social {
   list-style: none;

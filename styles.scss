@@ -851,8 +851,14 @@ nav li:nth-last-of-type(1) {
     }
 
     &:nth-child(1) {
+      //this is selecting the first row
       .col {
         flex-basis: 100%;
+      }
+
+      img {
+        width: 510px;
+        height: auto;
       }
     }
 
@@ -868,6 +874,7 @@ nav li:nth-last-of-type(1) {
       }
 
       .col {
+        padding: 30px;
         max-width: 500px;
         @media screen and (max-width: 768px) {
           max-width: none;
@@ -897,7 +904,11 @@ nav li:nth-last-of-type(1) {
   }
 
   .headline {
-    font-size: 3em;
+    font-size: 48px;
+    color: #a9804a;
+    font-weight: 500;
+    max-width: 18ch;
+    line-height: 1.2em;
   }
   .social {
     list-style: none;
