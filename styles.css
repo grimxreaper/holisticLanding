@@ -842,8 +842,13 @@ nav li:nth-last-of-type(1) {
     max-width: none;
   }
 }
+.block.demo .row:nth-child(2) .col .fab {
+  color: black;
+}
 .block.demo .row:nth-child(2) .col:nth-child(2) {
-  background: grey;
+  background-image: linear-gradient(180deg, rgba(249, 243, 235, 0.8) 0%, rgba(249, 243, 235, 0.8) 100%), url(https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/05/holistic-healer-21.png);
+  background-color: #f9f3eb;
+  background-repeat: repeat;
   padding: 4em 2em;
 }
 .block.demo .row:nth-child(2) .col:nth-child(2) .title {
