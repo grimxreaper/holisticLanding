@@ -207,7 +207,11 @@ nav li:nth-last-of-type(1) {
   }
   .wrapper {
     background-image: linear-gradient(
-      180deg,rgba(249,243,235,0.8) 0%,rgba(249,243,235,0.8) 100%),url(https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/05/holistic-healer-21.png);
+        180deg,
+        rgba(249, 243, 235, 0.8) 0%,
+        rgba(249, 243, 235, 0.8) 100%
+      ),
+      url(https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/05/holistic-healer-21.png);
     background-repeat: repeat;
     background-size: initial;
     height: 900px;
@@ -676,6 +680,7 @@ nav li:nth-last-of-type(1) {
 .section_five {
   height: auto;
   display: flex;
+  flex-direction: column;
   margin: 90px auto;
   max-width: 1080px;
   padding-top: 200px;

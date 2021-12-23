@@ -657,6 +657,7 @@ nav li:nth-last-of-type(1) {
 .section_five {
   height: auto;
   display: flex;
+  flex-direction: column;
   margin: 90px auto;
   max-width: 1080px;
   padding-top: 200px;
