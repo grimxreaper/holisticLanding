@@ -667,7 +667,6 @@ nav li:nth-last-of-type(1) {
   height: auto;
   position: relative;
   display: flex;
-  flex-direction: row;
 }
 .section_five .title {
   font-size: 60px;
@@ -679,10 +678,10 @@ nav li:nth-last-of-type(1) {
 .section_five .row {
   display: flex;
   flex-direction: row;
-  background-color: purple;
   justify-content: space-around;
   width: 1080px;
   height: auto;
+  margin-top: 40px;
 }
 .section_five .boxes {
   display: flex;
