@@ -565,7 +565,7 @@ nav li:nth-last-of-type(1) {
   position: relative;
   background-image: url("https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/05/holistic-healer-35.png");
   background-repeat: repeat;
-  height: 1040px;
+  height: auto;
   width: 100%;
   display: flex;
   text-align: center;
@@ -592,6 +592,17 @@ nav li:nth-last-of-type(1) {
     margin: auto;
     position: relative;
     height: 956px;
+
+    video {
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      z-index: 99999;
+      background: blueviolet;
+      cursor: pointer;
+      height: 200px;
+      width: auto;
+    }
 
     // .sage {
     //   width: 1000px;
