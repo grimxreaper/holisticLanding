@@ -576,11 +576,13 @@ nav li:nth-last-of-type(1) {
   z-index: -1;
 
   .row {
-    background: pink;
+    // background: pink;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
 
     &:nth-child(2) {
+      max-width: 1000px;
       height: 500px;
       align-items: center;
       .col {
@@ -673,15 +675,11 @@ nav li:nth-last-of-type(1) {
   }
 
   .quote {
-    position: absolute;
     background: #afe0c2;
     height: 217px;
     width: 700px;
     justify-content: center;
     text-align: left;
-    margin-bottom: 50px;
-    top: 0px;
-    right: -90px;
 
     .wrapper {
       position: relative;
