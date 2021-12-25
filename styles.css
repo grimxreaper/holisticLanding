@@ -565,13 +565,13 @@ nav li:nth-last-of-type(1) {
 }
 .section_four .row {
   display: flex;
-  flex-direction: column;
   justify-content: flex-end;
 }
 .section_four .row:nth-child(2) {
   max-width: 1000px;
   height: 500px;
   align-items: center;
+  flex-direction: column;
 }
 .section_four .row:nth-child(2) .col {
   background: red;
@@ -616,15 +616,12 @@ nav li:nth-last-of-type(1) {
 .section_four .quote {
   background: #afe0c2;
   height: 217px;
-  width: 700px;
+  width: 500px;
   justify-content: center;
   text-align: left;
 }
 .section_four .quote .wrapper {
-  position: relative;
-  left: 30px;
-  bottom: 10px;
-  width: 50%;
+  width: 90%;
 }
 .section_four .quote .author {
   font-family: "Josefin Sans", "Helvetica";
@@ -641,6 +638,7 @@ nav li:nth-last-of-type(1) {
   font-weight: 600;
   color: #333;
   margin-top: 40px;
+  word-wrap: break-word;
 }
 .section_four .video {
   position: absolute;
