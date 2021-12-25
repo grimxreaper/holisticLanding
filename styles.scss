@@ -576,47 +576,59 @@ nav li:nth-last-of-type(1) {
   z-index: -1;
 
   .sage_container {
-    position: absolute;
-    top: 216px;
-    left: 100px;
-    z-index: 1;
+    max-width: 1080px;
+    margin: auto;
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.3) 0%,
+        rgba(0, 0, 0, 0.3) 100%
+      ),
+      url(https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/06/holistic-healer-50.jpg);
+    z-index: 9999;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    height: 956px;
 
-    .sage {
-      width: 1000px;
-    }
+    // .sage {
+    //   width: 1000px;
+    // }
 
-    .description {
-      position: absolute;
-      bottom: 400px;
-      left: 400px;
-      width: 37%;
+    // .description {
+    //   position: absolute;
+    //   bottom: 400px;
+    //   left: 400px;
+    //   width: 37%;
 
-      p {
-        left: 1000px;
-        font-size: 16px;
-        color: #fff;
-        text-align: left;
-        font-weight: 500;
-        line-height: 1.8em;
-        font-family: "Muli", sans-serif;
-      }
-    }
+    //   p {
+    //     left: 1000px;
+    //     font-size: 16px;
+    //     color: #fff;
+    //     text-align: left;
+    //     font-weight: 500;
+    //     line-height: 1.8em;
+    //     font-family: "Muli", sans-serif;
+    //   }
+    // }
 
-    .text_block {
-      position: absolute;
-      top: 200px;
-      left: 190px;
+    // .text_block {
+    //   position: absolute;
+    //   top: 200px;
+    //   left: 190px;
 
-      h1 {
-        font-size: 140px;
-        font-weight: 600;
-        color: #fff;
-        line-height: 1.2em;
-        width: 77%;
-        text-align: left;
-        font-family: "Josefin Sans", "Helvetica", "Arial";
-      }
-    }
+    //   h1 {
+    //     font-size: 140px;
+    //     font-weight: 600;
+    //     color: #fff;
+    //     line-height: 1.2em;
+    //     width: 77%;
+    //     text-align: left;
+    //     font-family: "Josefin Sans", "Helvetica", "Arial";
+    //   }
+    // }
   }
 
   .column_two {
