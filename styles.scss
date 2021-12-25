@@ -585,9 +585,20 @@ nav li:nth-last-of-type(1) {
       height: 500px;
       align-items: center;
       flex-direction: column;
+
       .col {
         background: red;
+        max-width: 80%;
         display: flex;
+
+        h1 {
+          font-size: 140px;
+          font-weight: 600;
+          color: #fff;
+          line-height: 1.2em;
+          text-align: left;
+          font-family: "Josefin Sans", "Helvetica", "Arial";
+        }
 
         &:nth-child(2) {
           background: green;

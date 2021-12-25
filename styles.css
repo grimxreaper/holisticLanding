@@ -575,7 +575,16 @@ nav li:nth-last-of-type(1) {
 }
 .section_four .row:nth-child(2) .col {
   background: red;
+  max-width: 80%;
   display: flex;
+}
+.section_four .row:nth-child(2) .col h1 {
+  font-size: 140px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.2em;
+  text-align: left;
+  font-family: "Josefin Sans", "Helvetica", "Arial";
 }
 .section_four .row:nth-child(2) .col:nth-child(2) {
   background: green;
