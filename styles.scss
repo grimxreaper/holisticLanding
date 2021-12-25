@@ -575,6 +575,32 @@ nav li:nth-last-of-type(1) {
   margin: 90px auto;
   z-index: -1;
 
+  .row {
+    background: pink;
+    display: flex;
+    flex-direction: column;
+
+    &:nth-child(2) {
+      height: 500px;
+      align-items: center;
+      .col {
+        background: red;
+        display: flex;
+
+        &:nth-child(2) {
+          background: green;
+          max-width: 37%;
+          font-size: 16px;
+          color: #fff;
+          text-align: left;
+          font-weight: 500;
+          line-height: 1.8em;
+          font-family: "Muli", sans-serif;
+        }
+      }
+    }
+  }
+
   .sage_container {
     max-width: 1080px;
     margin: auto;

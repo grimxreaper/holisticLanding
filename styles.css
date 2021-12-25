@@ -563,6 +563,29 @@ nav li:nth-last-of-type(1) {
   margin: 90px auto;
   z-index: -1;
 }
+.section_four .row {
+  background: pink;
+  display: flex;
+  flex-direction: column;
+}
+.section_four .row:nth-child(2) {
+  height: 500px;
+  align-items: center;
+}
+.section_four .row:nth-child(2) .col {
+  background: red;
+  display: flex;
+}
+.section_four .row:nth-child(2) .col:nth-child(2) {
+  background: green;
+  max-width: 37%;
+  font-size: 16px;
+  color: #fff;
+  text-align: left;
+  font-weight: 500;
+  line-height: 1.8em;
+  font-family: "Muli", sans-serif;
+}
 .section_four .sage_container {
   max-width: 1080px;
   margin: auto;
