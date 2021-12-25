@@ -580,6 +580,36 @@ nav li:nth-last-of-type(1) {
     display: flex;
     justify-content: flex-end;
 
+    .quote {
+      background: #afe0c2;
+      height: 217px;
+      width: 500px;
+      justify-content: center;
+      text-align: left;
+
+      .wrapper {
+        width: 90%;
+      }
+
+      .author {
+        font-family: "Josefin Sans", "Helvetica";
+        font-size: 14px;
+        color: #6666;
+        font-weight: 600;
+        margin-bottom: 30px;
+        margin-top: 20px;
+      }
+      .text {
+        font-family: "Josefin Sans", "Helvetica";
+        font-size: 20px;
+        line-height: 1.8em;
+        font-weight: 600;
+        color: #333;
+        margin-top: 40px;
+        word-wrap: break-word;
+      }
+    }
+
     &:nth-child(2) {
       max-width: 1000px;
       height: 500px;
@@ -609,6 +639,16 @@ nav li:nth-last-of-type(1) {
           font-weight: 500;
           line-height: 1.8em;
           font-family: "Muli", sans-serif;
+
+          p {
+            left: 1000px;
+            font-size: 16px;
+            color: #fff;
+            text-align: left;
+            font-weight: 500;
+            line-height: 1.8em;
+            font-family: "Muli", sans-serif;
+          }
         }
       }
     }
@@ -642,95 +682,43 @@ nav li:nth-last-of-type(1) {
       height: 200px;
       width: auto;
     }
-
-    // .sage {
-    //   width: 1000px;
-    // }
-
-    // .description {
-    //   position: absolute;
-    //   bottom: 400px;
-    //   left: 400px;
-    //   width: 37%;
-
-    //   p {
-    //     left: 1000px;
-    //     font-size: 16px;
-    //     color: #fff;
-    //     text-align: left;
-    //     font-weight: 500;
-    //     line-height: 1.8em;
-    //     font-family: "Muli", sans-serif;
-    //   }
-    // }
-
-    // .text_block {
-    //   position: absolute;
-    //   top: 200px;
-    //   left: 190px;
-
-    //   h1 {
-    //     font-size: 140px;
-    //     font-weight: 600;
-    //     color: #fff;
-    //     line-height: 1.2em;
-    //     width: 77%;
-    //     text-align: left;
-    //     font-family: "Josefin Sans", "Helvetica", "Arial";
-    //   }
-    // }
   }
+  // .sage {
+  //   width: 1000px;
+  // }
 
-  .column_two {
-    position: relative;
-  }
+  // .description {
+  //   position: absolute;
+  //   bottom: 400px;
+  //   left: 400px;
+  //   width: 37%;
 
-  .quote {
-    background: #afe0c2;
-    height: 217px;
-    width: 500px;
-    justify-content: center;
-    text-align: left;
+  //   p {
+  //     left: 1000px;
+  //     font-size: 16px;
+  //     color: #fff;
+  //     text-align: left;
+  //     font-weight: 500;
+  //     line-height: 1.8em;
+  //     font-family: "Muli", sans-serif;
+  //   }
+  // }
 
-    .wrapper {
-      width: 90%;
-    }
+  // .text_block {
+  //   position: absolute;
+  //   top: 200px;
+  //   left: 190px;
 
-    .author {
-      font-family: "Josefin Sans", "Helvetica";
-      font-size: 14px;
-      color: #6666;
-      font-weight: 600;
-      margin-bottom: 30px;
-      margin-top: 20px;
-    }
-    .text {
-      font-family: "Josefin Sans", "Helvetica";
-      font-size: 20px;
-      line-height: 1.8em;
-      font-weight: 600;
-      color: #333;
-      margin-top: 40px;
-      word-wrap: break-word;
-    }
-  }
-
-  .video {
-    position: absolute;
-    bottom: -191px;
-    left: 100px;
-    z-index: 99999;
-    background: blueviolet;
-    cursor: pointer;
-    height: 200px;
-    width: auto;
-  }
-  .empty_block {
-    background: yellow;
-    width: 100px;
-    height: auto;
-    z-index: 999;
-  }
+  //   h1 {
+  //     font-size: 140px;
+  //     font-weight: 600;
+  //     color: #fff;
+  //     line-height: 1.2em;
+  //     width: 77%;
+  //     text-align: left;
+  //     font-family: "Josefin Sans", "Helvetica", "Arial";
+  //   }
+  // }
 }
 
 .section_five {
@@ -982,5 +970,23 @@ nav li:nth-last-of-type(1) {
       flex-direction: row;
       padding: 60px 0px 10px 0px;
     }
+  }
+}
+
+.section_six {
+  background-image: url("https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/06/holistic-healer-49.jpg");
+  height: 1170.8px;
+  display: flex;
+
+  .wrapper {
+    max-width: 1080px;
+    width: 80%;
+  }
+
+  .row {
+    background-color: #ffffff;
+    height: 600px;
+    // border: 1 solid #333;
+    // border-width: 30px;
   }
 }
