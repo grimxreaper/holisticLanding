@@ -905,13 +905,19 @@ nav li:nth-last-of-type(1) {
   align-items: center;
 }
 .section_six .row .fas {
-  color: pink;
   font-size: 28px;
   opacity: 0;
 }
+.section_six .row .fas.fa-chevron-left {
+  position: absolute;
+  left: 170px;
+}
+.section_six .row .fas.fa-chevron-right {
+  position: absolute;
+  right: 170px;
+}
 .section_six .row:nth-child(2) {
   height: 20px;
-  background: #f9dddd;
   justify-content: center;
   flex-direction: row;
 }
@@ -932,13 +938,9 @@ nav li:nth-last-of-type(1) {
   line-height: 1.8em;
 }
 .section_six .row:hover .fas.fa-chevron-left {
-  position: absolute;
-  left: 170px;
   opacity: 1;
 }
 .section_six .row:hover .fas.fa-chevron-right {
-  position: absolute;
-  right: 170px;
   opacity: 1;
 }
 .section_six a {

@@ -995,18 +995,24 @@ nav li:nth-last-of-type(1) {
     // border-width: 30px;
 
     .fas {
-      color: pink;
       font-size: 28px;
       opacity: 0;
     }
+    .fas.fa-chevron-left {
+      position: absolute;
+      left: 170px;
+    }
 
+    .fas.fa-chevron-right {
+      position: absolute;
+      right: 170px;
+    }
     // .fas:hover {
     //   opacity: 1;
     // }
 
     &:nth-child(2) {
       height: 20px;
-      background: rgb(249, 221, 221);
       justify-content: center;
       flex-direction: row;
     }
@@ -1030,14 +1036,10 @@ nav li:nth-last-of-type(1) {
   }
   .row:hover {
     .fas.fa-chevron-left {
-      position: absolute;
-      left: 170px;
       opacity: 1;
     }
 
     .fas.fa-chevron-right {
-      position: absolute;
-      right: 170px;
       opacity: 1;
     }
   }
