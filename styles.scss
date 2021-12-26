@@ -7,6 +7,14 @@
   /* //so height and width will be as we want */
 }
 
+h2 {
+  font-size: 60px;
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  line-height: 1.2em;
+  color: #333;
+  text-align: left;
+}
+
 img {
   max-width: 100%;
 }
@@ -340,9 +348,9 @@ nav li:nth-last-of-type(1) {
       width: 66.7%;
       max-width: 718.66px;
       grid-column: span 2;
-      border-bottom: 1px solid rgb(0, 0, 0);
-      border-right: 1px solid rgb(0, 0, 0);
-      border-left: 1px solid rgb(0, 0, 0);
+      border-bottom: 2px solid rgb(0, 0, 0);
+      border-right: 2px solid rgb(0, 0, 0);
+      border-left: 2px solid rgb(0, 0, 0);
 
       @media (max-width: 980px) {
         max-width: 100%;
@@ -390,26 +398,39 @@ nav li:nth-last-of-type(1) {
       }
     }
     .box_one {
-      border: 1px solid rgb(0, 0, 0);
+      border: 2px solid rgb(0, 0, 0);
     }
     .box_two {
-      border-bottom: 1px solid rgb(0, 0, 0);
-      border-top: 1px solid rgb(0, 0, 0);
-      border-right: 1px solid rgb(0, 0, 0);
+      border-bottom: 2px solid rgb(0, 0, 0);
+      border-top: 2px solid rgb(0, 0, 0);
+      border-right: 2px solid rgb(0, 0, 0);
     }
     .box_three {
-      border-bottom: 1px solid rgb(0, 0, 0);
-      border-top: 1px solid rgb(0, 0, 0);
-      border-right: 1px solid rgb(0, 0, 0);
+      border-bottom: 2px solid rgb(0, 0, 0);
+      border-top: 2px solid rgb(0, 0, 0);
+      border-right: 2px solid rgb(0, 0, 0);
     }
     .box_four {
       display: flex;
       justify-content: center;
       align-items: center;
-      border-bottom: 1px solid rgb(0, 0, 0);
-      border-right: 1px solid rgb(0, 0, 0);
+      border-bottom: 2px solid rgb(0, 0, 0);
+      border-right: 2px solid rgb(0, 0, 0);
     }
   }
+
+  // .box_one,
+  // .box_two,
+  // .box_three,
+  // .box_four,
+  // .herbal_remedy {
+  //   @media (max-width: 980px) {
+  //     border-top: 2px solid rgb(0, 0, 0);
+  //     border-right: 2px solid rgb(0, 0, 0);
+  //     border-left: 2px solid rgb(0, 0, 0);
+  //     border-bottom: none;
+  //   }
+  // }
 }
 
 .section_three {
@@ -727,7 +748,6 @@ nav li:nth-last-of-type(1) {
   flex-direction: column;
   margin: 90px auto;
   max-width: 1080px;
-  padding-top: 200px;
 
   .title_row {
     width: 1080px;
@@ -1019,7 +1039,7 @@ nav li:nth-last-of-type(1) {
       font-size: 30px;
       color: #2f2f2f;
       line-height: 1.2em;
-      font-weight: 100;
+      font-weight: 500;
       padding-bottom: 10px;
       width: 80%;
     }
@@ -1049,5 +1069,102 @@ nav li:nth-last-of-type(1) {
     padding: 0;
     opacity: 0.5;
     margin-bottom: 20px;
+  }
+}
+
+.section_seven {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding: 50px;
+
+  .row {
+    display: flex;
+    flex-direction: row;
+
+    &:nth-child(2) {
+      background: rgb(250, 225, 225);
+      padding: 30px;
+
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+
+        .box_one,
+        .box_two,
+        .box_three {
+          border: 2px solid rgb(0, 0, 0);
+        }
+
+        .box_one,
+        .box_two {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+
+  .btn {
+    display: block;
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: none;
+    border-radius: 50px;
+    background: #afe0c2;
+    color: white;
+    padding: 15px 40px;
+    font-size: 22px;
+  }
+
+  h5 {
+    color: #333;
+    line-height: 1.8em;
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-family: "Josefin Sans", Helvetica, Arial, Lucida, sans-serif;
+  }
+  .meta {
+    color: #666;
+    line-height: 1.8em;
+    font-size: 14px;
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-family: "Josefin Sans", Helvetica, Arial, Lucida, sans-serif;
+  }
+  p {
+    font-family: "Muli", sans-serif;
+    line-height: 1.8em;
+    word-wrap: break-word;
+    color: #666;
+  }
+
+  .box_one,
+  .box_two,
+  .box_three {
+    padding: 30px;
+    text-align: left;
+    line-height: 1.8em;
+  }
+  .box_one,
+  .box_two,
+  .box_three {
+    width: 33.3333%;
+    max-width: 359.33px;
+    @media (max-width: 980px) {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  .box_one {
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .box_two {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+  }
+  .box_three {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
   }
 }

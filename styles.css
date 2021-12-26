@@ -5,6 +5,14 @@
   /* //so height and width will be as we want */
 }
 
+h2 {
+  font-size: 60px;
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  line-height: 1.2em;
+  color: #333;
+  text-align: left;
+}
+
 img {
   max-width: 100%;
 }
@@ -332,9 +340,9 @@ nav li:nth-last-of-type(1) {
   width: 66.7%;
   max-width: 718.66px;
   grid-column: span 2;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
-  border-left: 1px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
 }
 @media (max-width: 980px) {
   .section_two .wrapper .herbal_remedy {
@@ -387,24 +395,24 @@ nav li:nth-last-of-type(1) {
   }
 }
 .section_two .wrapper .box_one {
-  border: 1px solid black;
+  border: 2px solid black;
 }
 .section_two .wrapper .box_two {
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-  border-right: 1px solid black;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
 }
 .section_two .wrapper .box_three {
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-  border-right: 1px solid black;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
 }
 .section_two .wrapper .box_four {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
 }
 
 .section_three {
@@ -662,7 +670,6 @@ nav li:nth-last-of-type(1) {
   flex-direction: column;
   margin: 90px auto;
   max-width: 1080px;
-  padding-top: 200px;
 }
 .section_five .title_row {
   width: 1080px;
@@ -926,7 +933,7 @@ nav li:nth-last-of-type(1) {
   font-size: 30px;
   color: #2f2f2f;
   line-height: 1.2em;
-  font-weight: 100;
+  font-weight: 500;
   padding-bottom: 10px;
   width: 80%;
 }
@@ -952,6 +959,101 @@ nav li:nth-last-of-type(1) {
   padding: 0;
   opacity: 0.5;
   margin-bottom: 20px;
+}
+
+.section_seven {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding: 50px;
+}
+.section_seven .row {
+  display: flex;
+  flex-direction: row;
+}
+.section_seven .row:nth-child(2) {
+  background: #fae1e1;
+  padding: 30px;
+}
+@media screen and (max-width: 768px) {
+  .section_seven .row:nth-child(2) {
+    flex-direction: column;
+  }
+  .section_seven .row:nth-child(2) .box_one,
+.section_seven .row:nth-child(2) .box_two,
+.section_seven .row:nth-child(2) .box_three {
+    border: 2px solid black;
+  }
+  .section_seven .row:nth-child(2) .box_one,
+.section_seven .row:nth-child(2) .box_two {
+    border-bottom: none;
+  }
+}
+.section_seven .btn {
+  display: block;
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+  border-radius: 50px;
+  background: #afe0c2;
+  color: white;
+  padding: 15px 40px;
+  font-size: 22px;
+}
+.section_seven h5 {
+  color: #333;
+  line-height: 1.8em;
+  font-size: 18px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-family: "Josefin Sans", Helvetica, Arial, Lucida, sans-serif;
+}
+.section_seven .meta {
+  color: #666;
+  line-height: 1.8em;
+  font-size: 14px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-family: "Josefin Sans", Helvetica, Arial, Lucida, sans-serif;
+}
+.section_seven p {
+  font-family: "Muli", sans-serif;
+  line-height: 1.8em;
+  word-wrap: break-word;
+  color: #666;
+}
+.section_seven .box_one,
+.section_seven .box_two,
+.section_seven .box_three {
+  padding: 30px;
+  text-align: left;
+  line-height: 1.8em;
+}
+.section_seven .box_one,
+.section_seven .box_two,
+.section_seven .box_three {
+  width: 33.3333%;
+  max-width: 359.33px;
+}
+@media (max-width: 980px) {
+  .section_seven .box_one,
+.section_seven .box_two,
+.section_seven .box_three {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+.section_seven .box_one {
+  border: 2px solid black;
+}
+.section_seven .box_two {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
+.section_seven .box_three {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
 }
 
 /*# sourceMappingURL=styles.css.map */
