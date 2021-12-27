@@ -1071,5 +1071,32 @@ nav li:nth-last-of-type(1) {
 .section_eight .row:nth-child(2) {
   display: flex;
 }
+.section_eight h1 {
+  font-family: "ZCOOL XiaoWei", Georgia, "Times New Roman", serif;
+  font-size: 80px;
+  color: #a9804a;
+  padding-bottom: 10px;
+  line-height: 1em;
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .section_eight h1 {
+    font-size: 30px;
+  }
+}
+.section_eight h5 {
+  font-family: "Josefin Sans", Helvetica, Arial, Lucida, sans-serif;
+  line-height: 1.4em;
+  font-size: 20px;
+  color: #333;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.section_eight p {
+  font-family: "Muli", sans-serif;
+  line-height: 1.8px;
+  color: #666;
+  font-size: 16px;
+}
 
 /*# sourceMappingURL=styles.css.map */
