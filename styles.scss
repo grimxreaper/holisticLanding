@@ -1289,15 +1289,33 @@ nav li:nth-last-of-type(1) {
 
 .dropdown_menu{
   position: absolute;
-  left: 0;
-  top: calc(100% + 1.3rem);
+  width: 500px;
+  top: calc(100% + 1.5rem);
   border-radius: 0.25rem;
   background: #ffff;
-  padding: 5%;
-  border-color: #2ea3f2;
+  padding: 2rem;
+  border-top: 3px solid #2ea3f2;
   opacity: 0;
   transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
   transform: translateY(-10px);
+  
+
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  li {
+    color: #20292f;
+    border-bottom: 1px solid rgba(0,0,0,.03);
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    text-align: left;
+    padding: 10px 5%;
+    border-radius: 0.15rem;
+  }
+  li:hover{
+    background: rgb(219, 219, 219);
+  }
 }
 
 .dropdown.active > .mobile-menu + .dropdown_menu{
