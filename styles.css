@@ -971,8 +971,8 @@ nav li:nth-last-of-type(1) {
   justify-content: space-between;
 }
 .section_seven .row:nth-child(2) {
-  background: #fae1e1;
   padding: 30px;
+  margin-top: 40px;
 }
 @media screen and (max-width: 768px) {
   .section_seven .row:nth-child(2) {
@@ -995,7 +995,6 @@ nav li:nth-last-of-type(1) {
   border-radius: 50px;
   background: #afe0c2;
   color: white;
-  padding: 15px 40px;
   font-size: 22px;
 }
 .section_seven h5 {
