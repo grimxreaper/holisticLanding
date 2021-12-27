@@ -1039,6 +1039,10 @@ nav li:nth-last-of-type(1) {
       font-weight: 500;
       padding-bottom: 10px;
       width: 80%;
+
+      @media screen and (max-width: 768px) {
+        font-size: 14px;
+      }
     }
     .author {
       font-family: "Muli", sans-serif;
@@ -1046,6 +1050,10 @@ nav li:nth-last-of-type(1) {
       font-size: 18px !important;
       color: #2f2f2f !important;
       line-height: 1.8em;
+
+      @media screen and (max-width: 768px) {
+        font-size: 10px;
+      }
     }
   }
   .row:hover {
