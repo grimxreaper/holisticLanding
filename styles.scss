@@ -1084,6 +1084,14 @@ nav li:nth-last-of-type(1) {
       padding: 30px;
       margin-top: 40px;
 
+      .box_one,
+      .box_two,
+      .box_three{
+        display:block;
+        overflow:auto;
+        height: 100%;
+      }
+
       @media screen and (max-width: 768px) {
         flex-direction: column;
 

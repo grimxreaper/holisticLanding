@@ -974,6 +974,13 @@ nav li:nth-last-of-type(1) {
   padding: 30px;
   margin-top: 40px;
 }
+.section_seven .row:nth-child(2) .box_one,
+.section_seven .row:nth-child(2) .box_two,
+.section_seven .row:nth-child(2) .box_three {
+  display: block;
+  overflow: auto;
+  height: 100%;
+}
 @media screen and (max-width: 768px) {
   .section_seven .row:nth-child(2) {
     flex-direction: column;
