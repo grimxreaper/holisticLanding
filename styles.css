@@ -1118,14 +1118,24 @@ nav li:nth-last-of-type(1) {
 .footer {
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  background-color: #171616;
 }
 .footer .row {
-  background-color: #171616;
   height: 55px;
-  width: 100%;
+  width: 889px;
   text-align: left;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 980px) {
+  .footer .row {
+    flex-direction: column;
+    float: none;
+    text-align: center;
+    margin: 0 0 5px;
+  }
 }
 .footer p {
   text-align: left;
@@ -1141,13 +1151,12 @@ nav li:nth-last-of-type(1) {
 }
 .footer .social ul {
   list-style: none;
-  gap: 1em;
 }
 .footer .social a {
   color: #666;
   font-size: 24px;
 }
-.footer .social .social.wrapper {
+.footer .social.wrapper {
   display: flex;
 }
 
