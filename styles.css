@@ -1009,7 +1009,7 @@ nav li:nth-last-of-type(1) {
   line-height: 1.8em;
   font-size: 18px;
   padding-bottom: 10px;
-  font-weight: 500;
+  font-weight: 400;
   font-family: "Josefin Sans", Helvetica, Arial, Lucida, sans-serif;
 }
 .section_seven .meta {
@@ -1064,12 +1064,28 @@ nav li:nth-last-of-type(1) {
 .section_eight {
   display: flex;
   flex-direction: row;
+  height: 450px;
+  margin-top: 30px;
+  background-size: initial;
+  background-position: top left;
+  background-repeat: repeat;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 100%), url(https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/05/holistic-healer-21.png);
 }
 .section_eight .row {
   display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
 .section_eight .row:nth-child(2) {
   display: flex;
+  margin-top: 20px;
+}
+.section_eight .col {
+  padding: 30px;
+  text-align: center;
+}
+.section_eight .btn {
+  margin-top: 40px;
 }
 .section_eight h1 {
   font-family: "ZCOOL XiaoWei", Georgia, "Times New Roman", serif;
@@ -1094,9 +1110,26 @@ nav li:nth-last-of-type(1) {
 }
 .section_eight p {
   font-family: "Muli", sans-serif;
-  line-height: 1.8px;
+  line-height: 1.8em;
   color: #666;
   font-size: 16px;
+}
+
+.footer .row {
+  background-color: #171616;
+  height: 55px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.footer p {
+  text-align: left;
+  color: #666;
+  padding-bottom: 10px;
+  float: left;
+  font-size: 14px;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */
