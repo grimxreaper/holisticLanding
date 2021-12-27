@@ -1289,5 +1289,18 @@ nav li:nth-last-of-type(1) {
 
 .dropdown_menu{
   position: absolute;
+  left: 0;
+  top: calc(100% + 1.3rem);
+  border-radius: 0.25rem;
+  background: #ffff;
+  padding: 5%;
+  border-color: #2ea3f2;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+  transform: translateY(-10px);
+}
 
+.dropdown.active > .mobile-menu + .dropdown_menu{
+  opacity: 1;
+  transform: translateY(0)
 }
