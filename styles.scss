@@ -597,7 +597,6 @@ nav li:nth-last-of-type(1) {
   z-index: -1;
 
   .row {
-    // background: pink;
     display: flex;
     justify-content: flex-end;
 
@@ -638,7 +637,6 @@ nav li:nth-last-of-type(1) {
       flex-direction: column;
 
       .col {
-        background: red;
         max-width: 80%;
         display: flex;
 
@@ -652,7 +650,6 @@ nav li:nth-last-of-type(1) {
         }
 
         &:nth-child(2) {
-          background: green;
           max-width: 37%;
           font-size: 16px;
           color: #fff;
@@ -1068,7 +1065,7 @@ nav li:nth-last-of-type(1) {
     margin-right: 10px;
     padding: 0;
     opacity: 0.5;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
   }
 }
 
@@ -1081,6 +1078,7 @@ nav li:nth-last-of-type(1) {
   .row {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
     &:nth-child(2) {
       background: rgb(250, 225, 225);
