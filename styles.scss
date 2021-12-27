@@ -1173,3 +1173,18 @@ nav li:nth-last-of-type(1) {
     border-right: 2px solid rgb(0, 0, 0);
   }
 }
+
+.section_eight {
+  display: flex;
+  flex-direction: row;
+
+  .row {
+    display: flex;
+
+    &:nth-child(2){
+      display: flex;
+    }
+  }
+
+
+}

@@ -1061,4 +1061,15 @@ nav li:nth-last-of-type(1) {
   border-right: 2px solid black;
 }
 
+.section_eight {
+  display: flex;
+  flex-direction: row;
+}
+.section_eight .row {
+  display: flex;
+}
+.section_eight .row:nth-child(2) {
+  display: flex;
+}
+
 /*# sourceMappingURL=styles.css.map */
