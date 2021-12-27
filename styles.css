@@ -1131,10 +1131,10 @@ nav li:nth-last-of-type(1) {
 }
 @media (max-width: 980px) {
   .footer .row {
-    flex-direction: column;
+    flex-direction: column-reverse;
     float: none;
     text-align: center;
-    margin: 0 0 5px;
+    margin: 10px 0 9px;
   }
 }
 .footer p {
@@ -1147,14 +1147,14 @@ nav li:nth-last-of-type(1) {
 .footer .social {
   display: flex;
   list-style: none;
-  gap: 1em;
+  gap: 1.5em;
 }
 .footer .social ul {
   list-style: none;
 }
 .footer .social a {
   color: #666;
-  font-size: 24px;
+  font-size: 27px;
 }
 .footer .social.wrapper {
   display: flex;
