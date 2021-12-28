@@ -1008,6 +1008,7 @@ nav li:nth-last-of-type(1) {
     text-align: center;
     flex-direction: column;
     align-items: center;
+    position: relative;
     // border: 1 solid #333;
     // border-width: 30px;
 
@@ -1017,12 +1018,12 @@ nav li:nth-last-of-type(1) {
     }
     .fas.fa-chevron-left {
       position: absolute;
-      left: 170px;
+      left: -30px;
     }
 
     .fas.fa-chevron-right {
       position: absolute;
-      right: 170px;
+      right: 30px;
     }
 
     &:nth-child(2) {
