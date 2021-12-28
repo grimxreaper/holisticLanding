@@ -278,8 +278,27 @@ nav li:nth-last-of-type(1) {
   padding: 25px 45px;
   font-size: 22px;
   display: inline-block;
+  position: relative;
   @media (max-width: 980px) {
     font-size: 18px;
+  }
+
+  .fas.fa-chevron-right{
+    opacity: 0;
+    position: absolute;
+    right: 15px;
+    // transition: all .2s ease-in-out;
+  }
+}
+
+.cta:hover{
+  .fas.fa-chevron-right{
+    opacity: 1;
+    transition: all .1s ease-in-out;
+    position: absolute;
+    transform: translateX(50%);
+    right: 15px;
+
   }
 }
 
@@ -376,7 +395,22 @@ nav li:nth-last-of-type(1) {
       color: white;
       padding: 15px 40px;
       font-size: 22px;
+
+      .fas.fa-chevron-right{
+        opacity: 0;
+        position: absolute;
+      }
     }
+
+    .cta_section_two:hover {
+      .fas.fa-chevron-right{
+        opacity: 1;
+        transition: all .1s ease-in-out;
+        position: absolute;
+        transform: translateX(50%);
+      }
+    }
+
     .box_one,
     .box_two,
     .box_three,
@@ -1018,12 +1052,14 @@ nav li:nth-last-of-type(1) {
     }
     .fas.fa-chevron-left {
       position: absolute;
-      left: -30px;
+      left: 0px;
+      transition: all .2s ease-in-out;
     }
 
     .fas.fa-chevron-right {
       position: absolute;
-      right: 30px;
+      right: 0px;
+      transition: all .2s ease-in-out;
     }
 
     &:nth-child(2) {

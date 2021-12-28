@@ -260,12 +260,27 @@ nav li:nth-last-of-type(1) {
   padding: 25px 45px;
   font-size: 22px;
   display: inline-block;
+  position: relative;
 }
 @media (max-width: 980px) {
   .cta,
 .btn {
     font-size: 18px;
   }
+}
+.cta .fas.fa-chevron-right,
+.btn .fas.fa-chevron-right {
+  opacity: 0;
+  position: absolute;
+  right: 15px;
+}
+
+.cta:hover .fas.fa-chevron-right {
+  opacity: 1;
+  transition: all 0.1s ease-in-out;
+  position: absolute;
+  transform: translateX(50%);
+  right: 15px;
 }
 
 .section_two {
@@ -368,6 +383,16 @@ nav li:nth-last-of-type(1) {
   color: white;
   padding: 15px 40px;
   font-size: 22px;
+}
+.section_two .wrapper .cta_section_two .fas.fa-chevron-right {
+  opacity: 0;
+  position: absolute;
+}
+.section_two .wrapper .cta_section_two:hover .fas.fa-chevron-right {
+  opacity: 1;
+  transition: all 0.1s ease-in-out;
+  position: absolute;
+  transform: translateX(50%);
 }
 .section_two .wrapper .box_one,
 .section_two .wrapper .box_two,
@@ -916,11 +941,13 @@ nav li:nth-last-of-type(1) {
 }
 .section_six .row .fas.fa-chevron-left {
   position: absolute;
-  left: -30px;
+  left: 0px;
+  transition: all 0.2s ease-in-out;
 }
 .section_six .row .fas.fa-chevron-right {
   position: absolute;
-  right: 30px;
+  right: 0px;
+  transition: all 0.2s ease-in-out;
 }
 .section_six .row:nth-child(2) {
   height: 20px;
