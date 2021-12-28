@@ -1199,7 +1199,7 @@ nav li:nth-last-of-type(1) {
   border-radius: 0.15rem;
 }
 .dropdown_menu li:hover {
-  background: #dbdbdb;
+  background: #dddcdc;
 }
 
 .dropdown.active > .mobile-menu + .dropdown_menu {
