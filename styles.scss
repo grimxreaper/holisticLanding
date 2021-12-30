@@ -202,8 +202,9 @@ nav li:nth-last-of-type(1) {
     .plant_right {
       z-index: 1;
       position: absolute;
-      width: 450px;
+      width: 500px;
       bottom: -20px;
+      right: 50px;
 
       @media (max-width: 970px) {
         width: 350px;
