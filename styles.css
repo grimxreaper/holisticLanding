@@ -1216,6 +1216,15 @@ nav li:nth-last-of-type(1) {
   position: relative;
 }
 
+.menu_container {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
 .dropdown_menu {
   position: relative;
   width: 500px;
@@ -1254,6 +1263,16 @@ nav li:nth-last-of-type(1) {
 
 .dropdown_menu.opacityOne {
   opacity: 1;
+}
+
+@media (min-width: 831px) {
+  .dropdown_menu.displayBlock {
+    display: none;
+  }
+
+  .dropdown_menu.opacityOne {
+    opacity: 0;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
