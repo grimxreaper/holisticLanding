@@ -33,19 +33,27 @@ sliderbtn_two.addEventListener("click", () => {
   console.log("hereee");
   quote_two.style.display = "block";
   author_two.style.display = "block";
-  quote_one.classList.toggle("displayNone");
-  author_one.classList.toggle("displayNone");
-  quote_three.classList.toggle("displayNone");
-  author_three.classList.toggle("displayNone");
+  quote_one.style.display = "none";
+  author_one.style.display = "none";
+  quote_three.style.display = "none";
+  author_three.style.display = "none";
+
+  // author_one.classList.toggle("displayNone");
+  // quote_three.classList.toggle("displayNone");
+  // author_three.classList.toggle("displayNone");
 });
 
 sliderbtn_three.addEventListener("click", () => {
   quote_three.style.display = "block";
   author_three.style.display = "block";
-  quote_one.classList.toggle("displayNone");
-  author_one.classList.toggle("displayNone");
-  quote_two.classList.toggle("displayNone");
-  author_two.classList.toggle("displayNone");
+  quote_one.style.display = "none";
+  author_one.style.display = "none";
+  quote_two.style.display = "none";
+  author_two.style.display = "none";
+  // quote_one.classList.toggle("displayNone");
+  // author_one.classList.toggle("displayNone");
+  // quote_two.classList.toggle("displayNone");
+  // author_two.classList.toggle("displayNone");
 });
 
 // document.querySelector("a.btn_two").onclick = function () {
