@@ -156,7 +156,6 @@ nav li:nth-last-of-type(1) {
   width: 60vw;
   max-width: 600px;
   height: 500px;
-  opacity: 0.5;
 }
 .block.hero .asset_wrapper {
   position: relative;
