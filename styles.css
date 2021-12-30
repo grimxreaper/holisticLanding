@@ -195,7 +195,8 @@ nav li:nth-last-of-type(1) {
 .block.hero .two .plant_right {
   z-index: 1;
   position: absolute;
-  width: 500px;
+  width: 450px;
+  bottom: -20px;
 }
 @media (max-width: 970px) {
   .block.hero .two .plant_right {
