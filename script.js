@@ -22,7 +22,7 @@ const author_three = document.querySelector(".author.three");
 sliderbtn_one.addEventListener("click", () => {
   console.log("we here");
   quote_one.style.color = "red";
-  // quote_two.style.opacity = "1";
+  author_one.style.opacity = "0";
   quote_two.classList.toggle("displayNone");
   author_two.classList.toggle("displayNone");
   quote_three.classList.toggle("displayNone");
@@ -41,7 +41,7 @@ sliderbtn_two.addEventListener("click", () => {
 
 sliderbtn_three.addEventListener("click", () => {
   quote_three.style.display = "block";
-  // quote_two.style.display = "none";
+  author_three.style.display = "block";
   quote_one.classList.toggle("displayNone");
   author_one.classList.toggle("displayNone");
   quote_two.classList.toggle("displayNone");
