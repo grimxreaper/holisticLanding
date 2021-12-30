@@ -9,3 +9,15 @@ menuButton.addEventListener('click', ()=>{
     },100)
 })
 
+const sliderbtn_one = document.querySelector('.btn_one');
+const quote_one = document.querySelector('.quote');
+const author_one = document.querySelector('.author');
+const quote_two = document.querySelector('.quote.two');
+const author_two = document.querySelector('.author.two');
+const quote_three = document.querySelector('.quote.three');
+const author_three = document.querySelector('.author.three');
+
+sliderbtn_one.addEventListener('click', () => {
+
+
+})

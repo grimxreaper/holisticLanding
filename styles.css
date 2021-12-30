@@ -1044,6 +1044,12 @@ nav li:nth-last-of-type(1) {
     font-size: 10px;
   }
 }
+.section_six .row .quote.two, .section_six .row .author.two {
+  display: none;
+}
+.section_six .row .quote.three, .section_six .row .author.three {
+  display: none;
+}
 .section_six .row:hover .fas {
   opacity: 1;
   cursor: pointer;

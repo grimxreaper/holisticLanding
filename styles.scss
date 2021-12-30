@@ -1143,6 +1143,14 @@ nav li:nth-last-of-type(1) {
         font-size: 10px;
       }
     }
+
+    .quote.two, .author.two {
+      display: none;
+    }
+
+    .quote.three, .author.three {
+      display: none;
+    }
   }
   .row:hover {
     .fas {
