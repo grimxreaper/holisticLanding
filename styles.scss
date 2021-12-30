@@ -174,7 +174,7 @@ nav li:nth-last-of-type(1) {
     .big_fern_left {
       position: absolute;
       bottom: 0;
-      left: -200px;
+      left: -220px;
       z-index: 1;
 
       @media (max-width: 970px) {
@@ -186,8 +186,9 @@ nav li:nth-last-of-type(1) {
     .mint_fern {
       position: absolute;
       bottom: -40px;
-      left: -200px;
+      left: -140px;
       z-index: 0;
+      width: 70%;
 
       @media (max-width: 970px) {
         width: 350px;
