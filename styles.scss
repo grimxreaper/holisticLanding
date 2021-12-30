@@ -1090,6 +1090,13 @@ nav li:nth-last-of-type(1) {
     // border: 1 solid #333;
     // border-width: 30px;
 
+    .arrow_container {
+      display: flex;
+      width: 90%;
+      height: auto;
+      position: relative;
+    }
+
     .fas {
       font-size: 28px;
       opacity: 0;
