@@ -1132,6 +1132,10 @@ nav li:nth-last-of-type(1) {
         font-size: 14px;
       }
     }
+    .quote.displayNone {
+      display: none;
+    }
+
     .author {
       font-family: "Muli", sans-serif;
       font-style: italic;
@@ -1144,11 +1148,23 @@ nav li:nth-last-of-type(1) {
       }
     }
 
-    .quote.two, .author.two {
+    .author.displayNone {
       display: none;
     }
 
-    .quote.three, .author.three {
+    .quote.two.displayNone {
+      display: none;
+    }
+
+    .author.two.displayNone {
+      display: none;
+    }
+
+    .quote.three.displayNone {
+      display: none;
+    }
+
+    .author.three.displayNone {
       display: none;
     }
   }
