@@ -252,6 +252,11 @@ nav li:nth-last-of-type(1) {
   justify-content: center;
   text-align: center;
 }
+@media (max-width: 980px) {
+  .hero-inner-text {
+    max-width: 70%;
+  }
+}
 
 .title_container {
   border-left: 5px solid #a9804a;
@@ -288,6 +293,16 @@ nav li:nth-last-of-type(1) {
   word-wrap: break-word;
   width: 88%;
   max-width: 600px;
+}
+@media (max-width: 980px) {
+  .hero-description {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .hero-description {
+    font-size: 14px;
+  }
 }
 
 .cta,
