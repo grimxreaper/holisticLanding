@@ -22,6 +22,7 @@ const author_three = document.querySelector(".author.three");
 sliderbtn_one.addEventListener("click", () => {
   console.log("we here");
   quote_one.style.display = 'block';
+  author_one.style.display = "block";
   quote_two.style.display = "none";
   author_two.style.display = "none";
   quote_three.style.display = "none";

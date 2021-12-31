@@ -1136,7 +1136,7 @@ nav li:nth-last-of-type(1) {
       display: none;
     }
 
-    .author.one {
+    .author.one, .author.two, .author.three {
       font-family: "Muli", sans-serif;
       font-style: italic;
       font-size: 18px !important;
@@ -1148,9 +1148,13 @@ nav li:nth-last-of-type(1) {
       }
     }
 
-    .author.displayNone {
+    .quote.two, .quote.three, .author.two, .author.three  {
       display: none;
     }
+
+    // .author.displayNone {
+    //   display: none;
+    // }
 
     .quote_two {
       display: none;
@@ -1160,21 +1164,21 @@ nav li:nth-last-of-type(1) {
       display: none;
     }
 
-    .quote.two.displayNone {
-      display: none;
-    }
+    // .quote.two.displayNone {
+    //   display: none;
+    // }
 
-    .author.two.displayNone {
-      display: none;
-    }
+    // .author.two.displayNone {
+    //   display: none;
+    // }
 
-    .quote.three.displayNone {
-      display: none;
-    }
+    // .quote.three.displayNone {
+    //   display: none;
+    // }
 
-    .author.three.displayNone {
-      display: none;
-    }
+    // .author.three.displayNone {
+    //   display: none;
+    // }
   }
   .row:hover {
     .fas {
