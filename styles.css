@@ -1035,7 +1035,7 @@ nav li:nth-last-of-type(1) {
 .section_six .row .quote.displayNone {
   display: none;
 }
-.section_six .row .author {
+.section_six .row .author.one {
   font-family: "Muli", sans-serif;
   font-style: italic;
   font-size: 18px !important;
@@ -1043,16 +1043,29 @@ nav li:nth-last-of-type(1) {
   line-height: 1.8em;
 }
 @media screen and (max-width: 768px) {
-  .section_six .row .author {
+  .section_six .row .author.one {
     font-size: 10px;
   }
 }
-.section_six .row .quote.two,
-.section_six .row .author.two {
+.section_six .row .author.displayNone {
   display: none;
 }
-.section_six .row .quote.three,
-.section_six .row .author.three {
+.section_six .row .quote_two {
+  display: none;
+}
+.section_six .row .quote_three {
+  display: none;
+}
+.section_six .row .quote.two.displayNone {
+  display: none;
+}
+.section_six .row .author.two.displayNone {
+  display: none;
+}
+.section_six .row .quote.three.displayNone {
+  display: none;
+}
+.section_six .row .author.three.displayNone {
   display: none;
 }
 .section_six .row:hover .fas {
