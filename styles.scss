@@ -1090,12 +1090,12 @@ nav li:nth-last-of-type(1) {
     // border: 1 solid #333;
     // border-width: 30px;
 
-    .arrow_container {
-      display: flex;
-      width: 90%;
-      height: auto;
-      position: relative;
-    }
+    // .arrow_container {
+    //   display: flex;
+    //   width: 90%;
+    //   height: auto;
+    //   position: relative;
+    // }
 
     .fas {
       font-size: 28px;
@@ -1103,13 +1103,13 @@ nav li:nth-last-of-type(1) {
     }
     .fas.fa-chevron-left {
       position: absolute;
-      left: 0px;
+      left: 30px;
       transition: all 0.2s ease-in-out;
     }
 
     .fas.fa-chevron-right {
       position: absolute;
-      right: 0px;
+      right: 30px;
       transition: all 0.2s ease-in-out;
     }
 

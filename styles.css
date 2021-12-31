@@ -993,24 +993,18 @@ nav li:nth-last-of-type(1) {
   align-items: center;
   position: relative;
 }
-.section_six .row .arrow_container {
-  display: flex;
-  width: 90%;
-  height: auto;
-  position: relative;
-}
 .section_six .row .fas {
   font-size: 28px;
   opacity: 0;
 }
 .section_six .row .fas.fa-chevron-left {
   position: absolute;
-  left: 0px;
+  left: 30px;
   transition: all 0.2s ease-in-out;
 }
 .section_six .row .fas.fa-chevron-right {
   position: absolute;
-  right: 0px;
+  right: 30px;
   transition: all 0.2s ease-in-out;
 }
 .section_six .row:nth-child(2) {
