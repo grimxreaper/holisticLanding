@@ -1074,8 +1074,11 @@ nav li:nth-last-of-type(1) {
   display: flex;
 
   .wrapper {
+    background: white;
     max-width: 1080px;
-    width: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
   }
 
   .row {
@@ -1086,9 +1089,8 @@ nav li:nth-last-of-type(1) {
     text-align: center;
     flex-direction: column;
     align-items: center;
-    position: relative;
-    // border: 1 solid #333;
-    // border-width: 30px;
+    border: 2px solid black;
+
 
     // .arrow_container {
     //   display: flex;

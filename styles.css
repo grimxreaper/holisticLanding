@@ -980,8 +980,11 @@ nav li:nth-last-of-type(1) {
   display: flex;
 }
 .section_six .wrapper {
+  background: white;
   max-width: 1080px;
-  width: 80%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
 }
 .section_six .row {
   display: flex;
@@ -991,7 +994,7 @@ nav li:nth-last-of-type(1) {
   text-align: center;
   flex-direction: column;
   align-items: center;
-  position: relative;
+  border: 2px solid black;
 }
 .section_six .row .fas {
   font-size: 28px;
