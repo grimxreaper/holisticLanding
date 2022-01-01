@@ -1019,6 +1019,7 @@ nav li:nth-last-of-type(1) {
   height: 20px;
   justify-content: center;
   flex-direction: row;
+  background: transparent;
 }
 .section_six .row .quote {
   font-family: "Josefin Sans", Helvetica, Arial, Lucida, sans-serif;
@@ -1079,7 +1080,7 @@ nav li:nth-last-of-type(1) {
   margin-right: 10px;
   padding: 0;
   opacity: 0.5;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 .section_seven {

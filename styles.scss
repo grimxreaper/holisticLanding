@@ -1128,6 +1128,7 @@ nav li:nth-last-of-type(1) {
       height: 20px;
       justify-content: center;
       flex-direction: row;
+      background: transparent;
     }
 
     .quote {
@@ -1179,10 +1180,6 @@ nav li:nth-last-of-type(1) {
     .quote_three {
       display: none;
     }
-
-    // .quote.two.displayNone {
-    //   display: none;
-    // }
   }
   .row:hover {
     .fas {
@@ -1201,7 +1198,7 @@ nav li:nth-last-of-type(1) {
     margin-right: 10px;
     padding: 0;
     opacity: 0.5;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
   }
 }
 
