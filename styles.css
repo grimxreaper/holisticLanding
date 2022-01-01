@@ -983,14 +983,14 @@ nav li:nth-last-of-type(1) {
   flex-direction: column;
 }
 .section_six .wrapper {
-  background: peachpuff;
+  background: #fff;
   height: 590px;
   padding-bottom: 40px;
   flex-direction: row;
 }
 .section_six .row {
   display: flex;
-  background-color: #ffffff;
+  background-color: #fff;
   height: 490px;
   width: 90%;
   justify-content: center;
@@ -1000,6 +1000,7 @@ nav li:nth-last-of-type(1) {
   margin-top: 50px;
   margin-right: 50px;
   margin-left: 50px;
+  border: 2px solid black;
 }
 .section_six .row .fas {
   font-size: 28px;
@@ -1020,6 +1021,7 @@ nav li:nth-last-of-type(1) {
   justify-content: center;
   flex-direction: row;
   background: transparent;
+  border: none;
 }
 .section_six .row .quote {
   font-family: "Josefin Sans", Helvetica, Arial, Lucida, sans-serif;
