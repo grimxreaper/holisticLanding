@@ -1103,14 +1103,15 @@ nav li:nth-last-of-type(1) {
     }
     .fas.fa-chevron-left {
       position: absolute;
-      left: 30px;
+      left: 250px;
       transition: all 0.2s ease-in-out;
     }
 
     .fas.fa-chevron-right {
       position: absolute;
-      right: 30px;
+      right: 250px;
       transition: all 0.2s ease-in-out;
+      // transform: translateX(10px);
     }
 
     &:nth-child(2) {
