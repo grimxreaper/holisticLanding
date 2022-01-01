@@ -21,18 +21,17 @@ const author_three = document.querySelector(".author.three");
 
 sliderbtn_one.addEventListener("click", () => {
   console.log("we here");
-  quote_one.style.display = 'block';
+  quote_one.style.display = "block";
   author_one.style.display = "block";
   quote_two.style.display = "none";
   author_two.style.display = "none";
   quote_three.style.display = "none";
   author_three.style.display = "none";
 
-
-//   quote_two.classList.toggle("displayNone");
-//   author_two.classList.toggle("displayNone");
-//   quote_three.classList.toggle("displayNone");
-//   author_three.classList.toggle("displayNone");
+  //   quote_two.classList.toggle("displayNone");
+  //   author_two.classList.toggle("displayNone");
+  //   quote_three.classList.toggle("displayNone");
+  //   author_three.classList.toggle("displayNone");
 });
 
 sliderbtn_two.addEventListener("click", () => {
@@ -56,13 +55,22 @@ sliderbtn_three.addEventListener("click", () => {
   author_one.style.display = "none";
   quote_two.style.display = "none";
   author_two.style.display = "none";
-  // quote_one.classList.toggle("displayNone");
-  // author_one.classList.toggle("displayNone");
-  // quote_two.classList.toggle("displayNone");
-  // author_two.classList.toggle("displayNone");
+
 });
 
-// document.querySelector("a.btn_two").onclick = function () {
-//   console.log("here");
-//   quote_one.style.color = "blue";
-// };
+const rightArrow = document.getElementsByClassName(".fas.fa-chevron-right");
+const leftArrow = document.querySelector("i.fas.fa-chevron-left");
+
+rightArrow.addEventListener("click", () => {
+  //if currently on quote 1, move to quote 2
+  console.log("inside");
+  if (quote_one.style.display === "block") {
+    console.log("hereee");
+    quote_two.style.display = "block";
+    author_two.style.display = "block";
+    quote_one.style.display = "none";
+    author_one.style.display = "none";
+    quote_three.style.display = "none";
+    author_three.style.display = "none";
+  }
+});
