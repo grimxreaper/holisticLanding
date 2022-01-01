@@ -978,32 +978,19 @@ nav li:nth-last-of-type(1) {
   background-image: url("https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/06/holistic-healer-49.jpg");
   height: 803px;
   display: flex;
-}
-.section_six .wrapper {
-  background: white;
-  max-width: 1080px;
-  width: 90%;
-  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-}
-.section_six .border {
-  position: absolute;
-  z-index: 0;
-  width: 977px;
-  height: 560px;
-  border: 2px solid black;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 .section_six .row {
   display: flex;
   background-color: #ffffff;
   height: 570px;
+  width: 90%;
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  align-items: center;
 }
 .section_six .row .fas {
   font-size: 28px;
