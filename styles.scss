@@ -1078,10 +1078,9 @@ nav li:nth-last-of-type(1) {
 
   .wrapper {
     background: peachpuff;
-    // max-width: 1080px;
-    // width: 90%;
-    // display: flex;
-    // flex-direction: column;
+    height: 590px;
+    padding-bottom: 40px;
+    flex-direction: row;
   }
 
   // .border {
@@ -1099,12 +1098,15 @@ nav li:nth-last-of-type(1) {
   .row {
     display: flex;
     background-color: #ffffff;
-    height: 570px;
+    height: 490px;
     width: 90%;
     justify-content: center;
     text-align: center;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
 
     .fas {
       font-size: 28px;
