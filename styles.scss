@@ -1083,6 +1083,14 @@ nav li:nth-last-of-type(1) {
 
   .border {
     position: absolute;
+    z-index: 0;
+    width: 977px;
+    height: 560px;
+    border: 2px solid black;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .row {
@@ -1092,7 +1100,10 @@ nav li:nth-last-of-type(1) {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    border: 2px solid black;
+
+    // &:nth-child(2) {
+    //   flex-direction: column;
+    // }
 
     .fas {
       font-size: 28px;
@@ -1167,18 +1178,6 @@ nav li:nth-last-of-type(1) {
     }
 
     // .quote.two.displayNone {
-    //   display: none;
-    // }
-
-    // .author.two.displayNone {
-    //   display: none;
-    // }
-
-    // .quote.three.displayNone {
-    //   display: none;
-    // }
-
-    // .author.three.displayNone {
     //   display: none;
     // }
   }
