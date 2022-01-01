@@ -982,6 +982,9 @@ nav li:nth-last-of-type(1) {
   align-items: center;
   flex-direction: column;
 }
+.section_six .wrapper {
+  background: peachpuff;
+}
 .section_six .row {
   display: flex;
   background-color: #ffffff;
