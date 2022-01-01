@@ -993,7 +993,6 @@ nav li:nth-last-of-type(1) {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  align-items: center;
   border: 2px solid black;
 }
 .section_six .row .fas {
