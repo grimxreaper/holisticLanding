@@ -707,8 +707,27 @@ nav li:nth-last-of-type(1) {
         word-wrap: break-word;
       }
     }
+  }
 
-    &:nth-child(2) {
+  .sage_container {
+    max-width: 1080px;
+    margin: auto;
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.3) 0%,
+        rgba(0, 0, 0, 0.3) 100%
+      ),
+      url(https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/06/holistic-healer-50.jpg);
+    z-index: 9999;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    height: 956px;
+
+    .row {
       max-width: 1000px;
       height: 500px;
       align-items: center;
@@ -748,25 +767,6 @@ nav li:nth-last-of-type(1) {
         }
       }
     }
-  }
-
-  .sage_container {
-    max-width: 1080px;
-    margin: auto;
-    background-image: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.3) 0%,
-        rgba(0, 0, 0, 0.3) 100%
-      ),
-      url(https://sayeed.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2020/06/holistic-healer-50.jpg);
-    z-index: 9999;
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    max-width: 1000px;
-    margin: auto;
-    position: relative;
-    height: 956px;
 
     video {
       position: absolute;
@@ -779,42 +779,6 @@ nav li:nth-last-of-type(1) {
       width: auto;
     }
   }
-  // .sage {
-  //   width: 1000px;
-  // }
-
-  // .description {
-  //   position: absolute;
-  //   bottom: 400px;
-  //   left: 400px;
-  //   width: 37%;
-
-  //   p {
-  //     left: 1000px;
-  //     font-size: 16px;
-  //     color: #fff;
-  //     text-align: left;
-  //     font-weight: 500;
-  //     line-height: 1.8em;
-  //     font-family: "Muli", sans-serif;
-  //   }
-  // }
-
-  // .text_block {
-  //   position: absolute;
-  //   top: 200px;
-  //   left: 190px;
-
-  //   h1 {
-  //     font-size: 140px;
-  //     font-weight: 600;
-  //     color: #fff;
-  //     line-height: 1.2em;
-  //     width: 77%;
-  //     text-align: left;
-  //     font-family: "Josefin Sans", "Helvetica", "Arial";
-  //   }
-  // }
 }
 
 .section_five {
