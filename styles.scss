@@ -766,17 +766,45 @@ nav li:nth-last-of-type(1) {
           }
         }
       }
-    }
+      &:nth-child(2) {
+        max-width: 1000px;
+        height: 460px;
+        align-items: center;
+        flex-direction: row;
+        justify-content: flex-start;
 
-    video {
-      position: absolute;
-      bottom: 0px;
-      left: 0px;
-      z-index: 99999;
-      background: blueviolet;
-      cursor: pointer;
-      height: 200px;
-      width: auto;
+        .wrapper {
+          position: absolute;
+          bottom: 0px;
+          left: 0px;
+          background: #fff;
+          cursor: pointer;
+          height: 200px;
+          width: auto;
+        }
+
+        video {
+          position: relative;
+          bottom: 0px;
+          left: 0px;
+          background: rgb(127, 113, 113);
+          cursor: pointer;
+          height: 200px;
+          width: auto;
+        }
+        .far.fa-play-circle {
+          color: #a9804a;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          font-size: 6rem;
+          line-height: 6rem;
+          margin-left: -3rem;
+          margin-top: -3rem;
+          text-decoration: none;
+          cursor: pointer;
+        }
+      }
     }
   }
 }

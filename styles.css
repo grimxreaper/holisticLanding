@@ -734,15 +734,42 @@ nav li:nth-last-of-type(1) {
   line-height: 1.8em;
   font-family: "Muli", sans-serif;
 }
-.section_four .sage_container video {
+.section_four .sage_container .row:nth-child(2) {
+  max-width: 1000px;
+  height: 460px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.section_four .sage_container .row:nth-child(2) .wrapper {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  z-index: 99999;
-  background: blueviolet;
+  background: #fff;
   cursor: pointer;
   height: 200px;
   width: auto;
+}
+.section_four .sage_container .row:nth-child(2) video {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  background: #7f7171;
+  cursor: pointer;
+  height: 200px;
+  width: auto;
+}
+.section_four .sage_container .row:nth-child(2) .far.fa-play-circle {
+  color: #a9804a;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 6rem;
+  line-height: 6rem;
+  margin-left: -3rem;
+  margin-top: -3rem;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .section_five {
