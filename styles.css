@@ -752,12 +752,9 @@ nav li:nth-last-of-type(1) {
 }
 .section_four .sage_container .row:nth-child(2) video {
   position: relative;
-  bottom: 0px;
-  left: 0px;
-  background: #7f7171;
   cursor: pointer;
-  height: 200px;
-  width: auto;
+  height: 100%;
+  width: 100%;
 }
 .section_four .sage_container .row:nth-child(2) .far.fa-play-circle {
   color: #a9804a;

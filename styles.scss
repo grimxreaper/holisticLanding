@@ -785,12 +785,9 @@ nav li:nth-last-of-type(1) {
 
         video {
           position: relative;
-          bottom: 0px;
-          left: 0px;
-          background: rgb(127, 113, 113);
           cursor: pointer;
-          height: 200px;
-          width: auto;
+          height: 100%;
+          width: 100%;
         }
         .far.fa-play-circle {
           color: #a9804a;
