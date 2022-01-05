@@ -108,6 +108,7 @@ nav .col-right {
   justify-content: center;
   z-index: 1;
   display: flex;
+  margin-top: 3px;
 }
 @media (max-width: 830px) {
   .menu_button {
