@@ -104,41 +104,38 @@ nav .col-right {
   width: 50px;
   height: 40px;
   padding: 1rem;
-  background: red;
   align-items: center;
   justify-content: center;
   z-index: 1;
 }
-
-.hamburger {
-  height: 2px;
-  width: 100%;
-  background-color: #7c7c7c;
-  display: flex;
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
 @media (max-width: 830px) {
-  .hamburger {
+  .menu_button {
     display: block;
   }
-}
-
-.hamburger > div:before,
-.hamburger > div:after {
-  content: "";
-  position: absolute;
-  top: -10px;
-  width: 100%;
-  height: 2px;
-  background: inherit;
-  background-color: #7c7c7c;
-}
-
-.menu_button > div:after {
-  top: 10px;
+  .menu_button .hamburger {
+    position: relative;
+    height: 2px;
+    width: 100%;
+    background-color: #7c7c7c;
+    display: flex;
+    flex: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu_button .hamburger > div:before,
+.menu_button .hamburger > div:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    width: 100%;
+    height: 2px;
+    background: inherit;
+  }
+  .menu_button .hamburger > div:after {
+    top: 10px;
+  }
 }
 
 nav li {
