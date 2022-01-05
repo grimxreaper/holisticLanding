@@ -1050,6 +1050,7 @@ nav li:nth-last-of-type(1) {
   margin-right: 50px;
   margin-left: 50px;
   border: 2px solid black;
+  position: relative;
 }
 .section_six .row .fas {
   font-size: 28px;
@@ -1057,12 +1058,12 @@ nav li:nth-last-of-type(1) {
 }
 .section_six .row .fas.fa-chevron-left {
   position: absolute;
-  left: 250px;
+  left: 15px;
   transition: all 0.2s ease-in-out;
 }
 .section_six .row .fas.fa-chevron-right {
   position: absolute;
-  right: 250px;
+  right: 15px;
   transition: all 0.2s ease-in-out;
 }
 .section_six .row:nth-child(2) {
