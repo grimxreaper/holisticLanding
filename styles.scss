@@ -857,7 +857,6 @@ nav li:nth-last-of-type(1) {
     width: 1080px;
     height: auto;
     margin-top: 40px;
-    scroll-snap-type: y mandatory;
   }
 
   .boxes {
@@ -868,6 +867,8 @@ nav li:nth-last-of-type(1) {
     margin-top: 20px;
     height: 233px;
     margin-left: 0px;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
   }
 
   .contents_one {
@@ -903,6 +904,7 @@ nav li:nth-last-of-type(1) {
   .contents_two {
     padding: 40px 30px 40px 30px;
     background-color: #afe0c2;
+    scroll-snap-align: start;
 
     .number {
       font-size: 36px;
