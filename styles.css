@@ -818,6 +818,7 @@ nav li:nth-last-of-type(1) {
   width: 1080px;
   height: auto;
   margin-top: 40px;
+  scroll-snap-type: y mandatory;
 }
 .section_five .boxes {
   display: flex;
